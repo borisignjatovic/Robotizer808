@@ -1,0 +1,1518 @@
+﻿Log file open, 05/24/17 13:38:01
+LogInit:Display: Running engine for game: Robotizer808
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-231326442) SRandInit(-231326442).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.108871
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.24-11.38.02:674][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.24-11.38.02:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.24-11.38.02:682][  0]LogInit: Computer: RONSWANSON
+[2017.05.24-11.38.02:682][  0]LogInit: User: borisignjatovic
+[2017.05.24-11.38.02:682][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.05.24-11.38.02:682][  0]LogInit: High frequency timer resolution =3.415995 MHz
+[2017.05.24-11.38.02:682][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.05.24-11.38.02:682][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-11.38.02:682][  0]LogMemory: Process Physical Memory: 263.97 MB used, 263.97 MB peak
+[2017.05.24-11.38.02:682][  0]LogMemory: Process Virtual Memory: 259.86 MB used, 259.86 MB peak
+[2017.05.24-11.38.02:682][  0]LogMemory: Physical Memory: 6781.95 MB used,  58655.88 MB free, 65437.84 MB total
+[2017.05.24-11.38.02:682][  0]LogMemory: Virtual Memory: 644.54 MB used,  58655.88 MB free, 134217728.00 MB total
+[2017.05.24-11.38.03:180][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.24-11.38.03:892][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.24-11.38.03:918][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.05.24-11.38.03:918][  0]LogD3D11RHI:       8144/0/32718 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.24-11.38.03:951][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.05.24-11.38.03:951][  0]LogD3D11RHI:       8144/0/32718 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.05.24-11.38.03:956][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.24-11.38.03:956][  0]LogD3D11RHI:       0/0/32718 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.24-11.38.03:956][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.24-11.38.03:962][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.24-11.38.03:962][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.24-11.38.03:962][  0]LogWindows: EnumDisplayDevices:
+[2017.05.24-11.38.03:962][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.05.24-11.38.03:962][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.05.24-11.38.03:962][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:962][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:963][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:963][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:963][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:963][  0]LogWindows:    7. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.24-11.38.03:963][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2017.05.24-11.38.03:963][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.05.24-11.38.03:963][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.24-11.38.03:963][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.24-11.38.03:963][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.24-11.38.03:978][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.24-11.38.03:978][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.24-11.38.03:988][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.24-11.38.04:072][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Intermediate/Shaders/WorkingDirectory/3852/).
+[2017.05.24-11.38.04:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/boris.ignjatovic/AppData/Local/Temp/UnrealShaderWorkingDir/CBB5F6B24890EC49AD1ACA9C9907D71F/'.
+[2017.05.24-11.38.04:072][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.24-11.38.05:604][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.24-11.38.05:697][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.24-11.38.05:789][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.24-11.38.05:882][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.24-11.38.05:975][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.24-11.38.06:067][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.24-11.38.06:161][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.24-11.38.06:254][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.24-11.38.06:337][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.24-11.38.06:429][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.24-11.38.06:519][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.24-11.38.06:611][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.24-11.38.06:703][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.24-11.38.06:795][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.24-11.38.06:887][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.24-11.38.07:070][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.24-11.38.07:070][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.24-11.38.07:147][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.24-11.38.07:308][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.24-11.38.07:364][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.24-11.38.07:455][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.24-11.38.07:546][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.24-11.38.07:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.24-11.38.07:730][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.24-11.38.07:730][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.24-11.38.08:692][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/boris.ignjatovic/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/boris.ignjatovic/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.24-11.38.08:742][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.24-11.38.08:757][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.24-11.38.08:770][  0]LogDerivedDataCache: Using Local data cache path C:/Users/boris.ignjatovic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.24-11.38.08:778][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.24-11.38.08:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.24-11.38.08:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.24-11.38.09:070][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.24-11.38.09:072][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.24-11.38.09:382][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.24-11.38.09:469][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.24-11.38.09:562][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.24-11.38.09:562][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.24-11.38.09:562][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.24-11.38.10:196][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: robotizer808, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3630192969
+[2017.05.24-11.38.10:264][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.05.24-11.38.10:332][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027383 seconds
+[2017.05.24-11.38.10:336][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.24-11.38.10:336][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.24-11.38.10:336][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.24-11.38.10:460][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.24-11.38.13:213][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.24-11.38.13:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.24-11.38.14:158][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.24-11.38.14:828][  0]SourceControl: Info Source control is disabled
+[2017.05.24-11.38.14:919][  0]SourceControl: Info Source control is disabled
+[2017.05.24-11.38.15:014][  0]SourceControl: Info Source control is disabled
+[2017.05.24-11.38.15:108][  0]SourceControl: Info Source control is disabled
+[2017.05.24-11.38.17:491][  0]LogEngine: Initializing Engine...
+[2017.05.24-11.38.17:971][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.05.24-11.38.18:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.24-11.38.18:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.24-11.38.18:314][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.24-11.38.18:331][  0]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.38.18:352][  0]LogInit: FAudioDevice initialized.
+[2017.05.24-11.38.18:376][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/boris.ignjatovic/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.24-11.38.18:380][  0]LogInit: Texture streaming: Enabled
+[2017.05.24-11.38.18:576][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.24-11.38.18:576][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={25BAF809-487B-3448-2B2F-61B9FCAA4622}
+[2017.05.24-11.38.18:751][  0]LogInit: Transaction tracking system initialized
+[2017.05.24-11.38.19:429][  0]BlueprintLog: New page: Editor Load
+[2017.05.24-11.38.21:161][  0]LocalizationService: Info Localization service is disabled
+[2017.05.24-11.38.22:698][  0]LogConsoleResponse:Display: 
+[2017.05.24-11.38.22:841][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.24-11.38.22:841][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.24-11.38.23:672][  0]LogFileCache: Scanning file cache for directory 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/' took 0.02s
+[2017.05.24-11.38.24:860][  0]SourceControl: Info Source control is disabled
+[2017.05.24-11.38.24:915][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-11.38.24:943][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.24-11.38.32:319][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-11.38.32:321][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-11.38.33:612][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-11.38.33:614][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-11.38.33:631][  0]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-11.38.33:631][  0]LogEditorServer:Warning: Can't find file '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.05.24-11.38.33:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-11.38.33:719][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.635ms to complete.
+[2017.05.24-11.38.33:719][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.088
+[2017.05.24-11.38.33:880][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_ed8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1c64_0///####STATCAT_Advanced####
+[2017.05.24-11.38.33:880][  0]LogCollectionManager: Loaded 0 collections in 0.001809 seconds
+[2017.05.24-11.38.34:001][  0]LogFileCache: Scanning file cache for directory 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Collections/' took 0.01s
+[2017.05.24-11.38.34:001][  0]LogFileCache: Scanning file cache for directory 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/Developers/borisignjatovic/Collections/' took 0.01s
+[2017.05.24-11.38.34:001][  0]LogFileCache: Scanning file cache for directory 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/Collections/' took 0.01s
+[2017.05.24-11.38.34:001][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.24-11.38.34:009][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2245 classes and 453 folders.
+[2017.05.24-11.38.34:128][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.24-11.38.34:200][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.24-11.38.34:295][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.24-11.38.34:404][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.24-11.38.34:410][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.24-11.38.34:515][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.24-11.38.34:515][  0]LogLoad: (Engine Initialization) Total time: 34.52 seconds
+[2017.05.24-11.38.34:515][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.05.24-11.38.34:515][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.24-11.38.34:515][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.24-11.38.34:524][  0]LogOcInput: OculusInput pre-init called
+[2017.05.24-11.38.34:544][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.24-11.38.34:545][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.24-11.38.34:550][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.24-11.38.34:665][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.24-11.38.34:735][  0]LogRenderer: Reallocating scene render targets to support 1172x660 NumSamples 1 (Frame:2).
+[2017.05.24-11.38.34:764][  1]LogAssetRegistry: Asset discovery search completed in 24.5218 seconds
+[2017.05.24-11.38.34:764][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.24-11.38.34:764][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.05.24-11.38.35:548][ 89]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.24-11.38.42:615][907]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.24-11.38.43:115][907]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.24-11.38.43:652][907]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.24-11.38.43:735][907]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.24-11.38.44:093][908]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.24-11.40.48:499][269]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.40.49:100][293]LogSavePackage: Save=75.24ms
+[2017.05.24-11.40.49:101][293]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlB2DB7E1340C8A8BC38FA7A92AFF6876D.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.40.49:104][293]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.41.11:533][147]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.41.13:236][230]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.41.15:411][230]LogSavePackage: Save=75.44ms
+[2017.05.24-11.41.15:411][230]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlAA4BEE4948B85F789A66B6856FCDE940.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.41.15:415][230]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.41.15:416][230]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-11.41.15:416][230]LightingResults: New page: Lighting Build
+[2017.05.24-11.41.15:495][230]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2017.05.24-11.41.15:496][230]LoadErrors: New page: Loading map: Level_7.umap
+[2017.05.24-11.41.15:496][230]MapCheck: New page: Map Check
+[2017.05.24-11.41.15:496][230]LightingResults: New page: Lighting Build
+[2017.05.24-11.41.15:591][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-11.41.15:610][230]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-11.41.15:706][230]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.611ms to complete.
+[2017.05.24-11.41.15:706][230]LogFileHelpers: Loading map 'Level_7' took 0.291
+[2017.05.24-11.41.16:700][298]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.41.16:734][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.41.16:734][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.41.16:734][298]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:41:16 PM)
+[2017.05.24-11.41.16:735][298]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.41.16:759][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024314s)
+[2017.05.24-11.41.16:759][298]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.41.16:760][298]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.05.24-11.41.16:760][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.025184s)
+[2017.05.24-11.41.16:782][298]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.41.16:786][298]LogInit: FAudioDevice initialized.
+[2017.05.24-11.41.16:835][298]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.41.16:838][298]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.41.16
+[2017.05.24-11.41.16:839][298]LogWorld: Bringing up level for play took: 0.002862
+[2017.05.24-11.41.16:917][298]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.24-11.41.16:918][298]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.41.16:918][298]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.662
+[2017.05.24-11.41.16:918][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.41.24:829][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.41.24:880][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.44.03:136][351]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.24-11.44.25:389][ 67]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.44.26:120][ 81]LogSavePackage: Save=71.97ms
+[2017.05.24-11.44.26:120][ 81]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl6C72D09D4632F5C64818C39B8ABFB9E0.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.44.26:124][ 81]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.44.26:892][141]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.44.26:902][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.44.26:902][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.44.26:902][141]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:44:26 PM)
+[2017.05.24-11.44.26:903][141]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.44.26:923][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020702s)
+[2017.05.24-11.44.26:924][141]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.44.26:924][141]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2017.05.24-11.44.26:924][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.022010s)
+[2017.05.24-11.44.26:949][141]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.44.26:953][141]LogInit: FAudioDevice initialized.
+[2017.05.24-11.44.26:984][141]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.44.26:988][141]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.44.26
+[2017.05.24-11.44.26:988][141]LogWorld: Bringing up level for play took: 0.002753
+[2017.05.24-11.44.26:989][141]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.44.26:989][141]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.44.26:989][141]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.591
+[2017.05.24-11.44.26:990][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.44.35:380][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.44.35:434][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.45.25:954][122]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.45.26:479][141]LogSavePackage: Save=73.03ms
+[2017.05.24-11.45.26:479][141]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl18BCB0614B0DE4934060E2B408E733D0.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.45.26:483][141]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.45.27:631][243]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.45.27:641][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.45.27:641][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.45.27:641][243]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:45:27 PM)
+[2017.05.24-11.45.27:641][243]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.45.27:661][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019695s)
+[2017.05.24-11.45.27:662][243]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.45.27:662][243]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2017.05.24-11.45.27:662][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020712s)
+[2017.05.24-11.45.27:685][243]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.45.27:689][243]LogInit: FAudioDevice initialized.
+[2017.05.24-11.45.27:717][243]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.45.27:720][243]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.45.27
+[2017.05.24-11.45.27:721][243]LogWorld: Bringing up level for play took: 0.002686
+[2017.05.24-11.45.27:722][243]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 0.142
+[2017.05.24-11.45.27:722][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.45.39:566][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.45.39:617][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.46.12:562][290]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.46.14:951][484]LogRenderer: Reallocating scene render targets to support 1172x1032 NumSamples 1 (Frame:34871).
+[2017.05.24-11.46.39:002][210]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.46.40:042][251]LogSavePackage: Save=71.77ms
+[2017.05.24-11.46.40:042][251]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl1707CE474ECAC838ED3198BBB9C254C3.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.46.40:045][251]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.46.40:763][300]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.46.40:773][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.46.40:774][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.46.40:774][300]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:46:40 PM)
+[2017.05.24-11.46.40:774][300]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.46.40:793][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019525s)
+[2017.05.24-11.46.40:794][300]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.46.40:794][300]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.05.24-11.46.40:794][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020376s)
+[2017.05.24-11.46.40:818][300]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.46.40:823][300]LogInit: FAudioDevice initialized.
+[2017.05.24-11.46.40:856][300]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.46.40:859][300]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.46.40
+[2017.05.24-11.46.40:860][300]LogWorld: Bringing up level for play took: 0.002705
+[2017.05.24-11.46.40:861][300]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.46.40:861][300]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.719
+[2017.05.24-11.46.40:861][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.46.55:975][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.46.56:027][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.47.04:158][923]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.47.04:868][951]LogSavePackage: Save=71.02ms
+[2017.05.24-11.47.04:868][951]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlB439E0B2453FDF9B39189C89C7BE7176.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.47.04:872][951]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.47.05:728][ 11]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.47.05:739][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.47.05:739][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.47.05:739][ 11]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:47:05 PM)
+[2017.05.24-11.47.05:739][ 11]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.47.05:759][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019517s)
+[2017.05.24-11.47.05:759][ 11]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.47.05:759][ 11]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.05.24-11.47.05:759][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020383s)
+[2017.05.24-11.47.05:783][ 11]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.47.05:787][ 11]LogInit: FAudioDevice initialized.
+[2017.05.24-11.47.05:819][ 11]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.47.05:822][ 11]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.47.05
+[2017.05.24-11.47.05:823][ 11]LogWorld: Bringing up level for play took: 0.002758
+[2017.05.24-11.47.05:823][ 11]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.47.05:824][ 11]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 0.243
+[2017.05.24-11.47.05:824][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.47.07:601][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.47.07:653][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.50.01:428][347]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.50.45:615][355]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.50.46:739][419]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.50.46:750][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.50.46:750][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.50.46:750][419]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:50:46 PM)
+[2017.05.24-11.50.46:750][419]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.50.46:771][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020222s)
+[2017.05.24-11.50.46:772][419]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.50.46:772][419]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2017.05.24-11.50.46:772][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.021317s)
+[2017.05.24-11.50.46:796][419]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.50.46:800][419]LogInit: FAudioDevice initialized.
+[2017.05.24-11.50.46:833][419]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.50.46:836][419]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.50.46
+[2017.05.24-11.50.46:837][419]LogWorld: Bringing up level for play took: 0.002987
+[2017.05.24-11.50.46:838][419]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.50.46:838][419]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.742
+[2017.05.24-11.50.46:838][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.50.53:291][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.50.53:341][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.51.49:778][ 32]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.51.50:801][103]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.51.50:811][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.51.50:811][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.51.50:811][103]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:51:50 PM)
+[2017.05.24-11.51.50:811][103]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.51.50:831][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019481s)
+[2017.05.24-11.51.50:831][103]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.51.50:831][103]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.05.24-11.51.50:832][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020409s)
+[2017.05.24-11.51.50:855][103]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.51.50:859][103]LogInit: FAudioDevice initialized.
+[2017.05.24-11.51.50:890][103]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.51.50:893][103]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.51.50
+[2017.05.24-11.51.50:893][103]LogWorld: Bringing up level for play took: 0.002759
+[2017.05.24-11.51.50:894][103]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.51.50:895][103]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.686
+[2017.05.24-11.51.50:895][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.51.57:989][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.51.58:040][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.10:347][861]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.52.11:321][928]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.52.11:332][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.11:332][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.52.11:332][928]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:52:11 PM)
+[2017.05.24-11.52.11:332][928]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.52.11:351][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018809s)
+[2017.05.24-11.52.11:351][928]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.52.11:351][928]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.05.24-11.52.11:351][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.019653s)
+[2017.05.24-11.52.11:374][928]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.52.11:378][928]LogInit: FAudioDevice initialized.
+[2017.05.24-11.52.11:407][928]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.52.11:410][928]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.52.11
+[2017.05.24-11.52.11:411][928]LogWorld: Bringing up level for play took: 0.002727
+[2017.05.24-11.52.11:412][928]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.169
+[2017.05.24-11.52.11:412][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.13:592][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.13:632][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.23:689][ 28]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.52.24:287][ 52]LogSavePackage: Save=79.03ms
+[2017.05.24-11.52.24:287][ 52]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl1E70C2774218FCDAF071D18F8A532D5F.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.52.24:291][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.52.25:027][116]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.52.25:037][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.25:038][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.52.25:038][116]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:52:25 PM)
+[2017.05.24-11.52.25:038][116]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.52.25:055][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017521s)
+[2017.05.24-11.52.25:056][116]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.52.25:056][116]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.05.24-11.52.25:056][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.018386s)
+[2017.05.24-11.52.25:079][116]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.52.25:083][116]LogInit: FAudioDevice initialized.
+[2017.05.24-11.52.25:110][116]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.52.25:113][116]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.52.25
+[2017.05.24-11.52.25:114][116]LogWorld: Bringing up level for play took: 0.002691
+[2017.05.24-11.52.25:114][116]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.52.25:114][116]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.52.25:115][116]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.466
+[2017.05.24-11.52.25:115][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.28:154][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.52.28:191][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.53.41:793][ 85]LogSavePackage: Save=233.16ms
+[2017.05.24-11.53.41:793][ 85]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_7_Auto1155A7CC14F132D8EB444C5957B37F5B1.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Maps/Level_7_Auto1.umap'
+[2017.05.24-11.53.41:796][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Maps/Level_7_Auto1.umap
+[2017.05.24-11.53.41:798][ 85]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Level_7' took 0.268
+[2017.05.24-11.53.41:798][ 85]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.268
+[2017.05.24-11.55.33:304][917]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.56.22:228][483]LogEditorTransaction: Undo Delete current selection
+[2017.05.24-11.56.22:705][494]LogEditorTransaction: Undo Create Pin Link
+[2017.05.24-11.56.24:037][570]LogEditorTransaction: Undo Create Pin Link
+[2017.05.24-11.56.56:394][665]LogEditorTransaction: Undo Delete current selection
+[2017.05.24-11.57.30:597][779]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.57.31:441][800]LogSavePackage: Save=77.96ms
+[2017.05.24-11.57.31:441][800]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl649569CF43BCE2AE08E34CB34A71A1B5.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.57.31:445][800]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.57.38:013][352]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.57.38:024][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.57.38:024][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.57.38:024][352]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:57:38 PM)
+[2017.05.24-11.57.38:024][352]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.57.38:044][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020247s)
+[2017.05.24-11.57.38:045][352]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.57.38:045][352]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.05.24-11.57.38:045][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.021249s)
+[2017.05.24-11.57.38:069][352]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.57.38:073][352]LogInit: FAudioDevice initialized.
+[2017.05.24-11.57.38:106][352]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.57.38:109][352]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.57.38
+[2017.05.24-11.57.38:110][352]LogWorld: Bringing up level for play took: 0.002908
+[2017.05.24-11.57.38:111][352]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.57.38:111][352]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-11.57.38:111][352]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 0.531
+[2017.05.24-11.57.38:111][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.57.48:694][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.57.48:746][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.58.48:376][650]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-11.58.48:951][667]LogSavePackage: Save=78.99ms
+[2017.05.24-11.58.48:951][667]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl1853BAF64841A22CA59FFEA1EF85CB83.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-11.58.48:955][667]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-11.58.50:166][748]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-11.58.50:177][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.58.50:177][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-11.58.50:177][748]PIE: New page: PIE session: Level_7 (May 24, 2017, 3:58:50 PM)
+[2017.05.24-11.58.50:177][748]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-11.58.50:197][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019641s)
+[2017.05.24-11.58.50:197][748]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-11.58.50:198][748]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.05.24-11.58.50:198][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020559s)
+[2017.05.24-11.58.50:222][748]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-11.58.50:226][748]LogInit: FAudioDevice initialized.
+[2017.05.24-11.58.50:256][748]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-11.58.50:260][748]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-13.58.50
+[2017.05.24-11.58.50:260][748]LogWorld: Bringing up level for play took: 0.002724
+[2017.05.24-11.58.50:261][748]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 0.681
+[2017.05.24-11.58.50:261][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.59.02:695][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-11.59.02:756][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.00.06:405][794]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.01.14:817][765]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.01.14:828][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.01.14:828][765]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.24-12.01.14:828][765]LogPlayLevel: [PlayLevel] Compiling PillarControl before play...
+[2017.05.24-12.01.15:011][765]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (1 blueprints)
+[2017.05.24-12.01.15:011][765]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:01:15 PM)
+[2017.05.24-12.01.15:011][765]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.01.15:031][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019784s)
+[2017.05.24-12.01.15:031][765]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.01.15:032][765]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.05.24-12.01.15:032][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020783s)
+[2017.05.24-12.01.15:053][765]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.01.15:058][765]LogInit: FAudioDevice initialized.
+[2017.05.24-12.01.15:088][765]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.01.15:091][765]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.01.15
+[2017.05.24-12.01.15:092][765]LogWorld: Bringing up level for play took: 0.002907
+[2017.05.24-12.01.15:093][765]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.01.15:093][765]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.01.15:093][765]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.487
+[2017.05.24-12.01.15:093][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.01.19:462][135]LogOutputDevice:Warning: 
+
+Script Stack:
+PillarControl_C.FormPillars
+PillarControl_C.ExecuteUbergraph_PillarControl
+PillarControl_C.Timeline_0__UpdateFunc
+
+[2017.05.24-12.01.19:648][135]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.186 s
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 534]
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: Stack: 
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000532E95E6
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000053099B82
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000530AB666
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041661C2A
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000416405C9
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041644A60
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041657D01
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041659134
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004161DEAA
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041155030
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004119A37A
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000410DBD5C
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056B8509A
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB7E6E
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD9EC1
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB887E
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056D01F73
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB887E
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056D01F73
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056B8509A
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDB43B
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000411A3922
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421D42C6
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DC44D
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DBC7E
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004154C05F
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041571A15
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000420FDB4D
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421039CD
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F6D84D
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F6DC6D
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F8CCEB
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421289D1
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421396A2
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A67B64
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A6FC8B
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003FB96D8E
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000403A2156
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E3DEE3
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EB40
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EBBA
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E40A29
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E422B6
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: KERNEL32.DLL!0x0000000094552774
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: ntdll.dll!0x0000000094720D61
+[2017.05.24-12.01.19:648][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.19:654][135]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.24-12.01.20:001][135]LogStats:                    SendNewReport -  0.347 s
+[2017.05.24-12.01.20:001][135]LogStats:             FDebug::EnsureFailed -  0.539 s
+[2017.05.24-12.01.20:001][135]LogOutputDevice:Warning: 
+
+Script Stack:
+PillarControl_C.FormPillars
+PillarControl_C.ExecuteUbergraph_PillarControl
+PillarControl_C.Timeline_0__UpdateFunc
+
+[2017.05.24-12.01.20:002][135]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 3012]
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7:PersistentLevel.Pillar12.soundBox)
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: 1200.000000,-1010.000000,inf|0.000000,-70.000000,0.000000|1.000000,1.000000,1.000000
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: Stack: 
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000532E95E6
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000053099B82
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000530AB666
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041D489A2
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041653613
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004164B40B
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041661CB4
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000410CBE51
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041660B48
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004164B441
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041661CB4
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000416405C9
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041644A60
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041657D01
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041659134
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004161DEAA
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041155030
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004119A37A
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000410DBD5C
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056B8509A
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB7E6E
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD9EC1
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB887E
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056D01F73
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CB887E
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056D01F73
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDC0C2
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056B8509A
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CDB43B
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000411A3922
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421D42C6
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DC44D
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DBC7E
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004154C05F
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041571A15
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000420FDB4D
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421039CD
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F6D84D
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F6DC6D
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000052F8CCEB
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421289D1
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421396A2
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A67B64
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A6FC8B
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003FB96D8E
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000403A2156
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E3DEE3
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EB40
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EBBA
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E40A29
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E422B6
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: KERNEL32.DLL!0x0000000094552774
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: ntdll.dll!0x0000000094720D61
+[2017.05.24-12.01.20:002][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.20:004][135]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.24-12.01.20:347][135]LogStats:                    SendNewReport -  0.343 s
+[2017.05.24-12.01.20:348][135]LogStats:             FDebug::EnsureFailed -  0.346 s
+[2017.05.24-12.01.20:350][135]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 840]
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: Nans found on Bounds for Primitive PillarMesh: Origin X=1200.000 Y=-1010.000 Z=inf, BoxExtent X=51.269 Y=51.269 Z=502.500, SphereRadius 505.517853
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: Stack: 
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000532E95E6
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000053099B82
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000530AB666
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000004C872674
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041653F0F
+[2017.05.24-12.01.20:350][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004156FB50
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A22B77
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A5707D
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000041A684C4
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000004C7F7C90
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004184EC5A
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004217A8BE
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003FB9766A
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000403A2156
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E3DEE3
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EB40
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EBBA
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E40A29
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E422B6
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: KERNEL32.DLL!0x0000000094552774
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: ntdll.dll!0x0000000094720D61
+[2017.05.24-12.01.20:351][135]LogOutputDevice:Error: 
+[2017.05.24-12.01.20:354][135]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.24-12.01.20:706][135]LogStats:                    SendNewReport -  0.352 s
+[2017.05.24-12.01.20:706][135]LogStats:             FDebug::EnsureFailed -  0.358 s
+[2017.05.24-12.01.20:721][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.01.20:779][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.18:213][ 41]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.02.19:499][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.02.19:510][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.19:510][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.02.19:510][136]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:02:19 PM)
+[2017.05.24-12.02.19:510][136]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.02.19:529][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019032s)
+[2017.05.24-12.02.19:530][136]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.02.19:530][136]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.05.24-12.02.19:530][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.019893s)
+[2017.05.24-12.02.19:554][136]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.02.19:558][136]LogInit: FAudioDevice initialized.
+[2017.05.24-12.02.19:591][136]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.02.19:594][136]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.02.19
+[2017.05.24-12.02.19:594][136]LogWorld: Bringing up level for play took: 0.002718
+[2017.05.24-12.02.19:595][136]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.19:595][136]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.19:595][136]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.19:595][136]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 0.015
+[2017.05.24-12.02.19:596][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.21:601][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.21:640][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.27:287][786]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.02.28:813][903]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.02.28:823][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.28:823][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.02.28:823][903]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:02:28 PM)
+[2017.05.24-12.02.28:823][903]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.02.28:843][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019135s)
+[2017.05.24-12.02.28:843][903]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.02.28:843][903]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2017.05.24-12.02.28:843][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020005s)
+[2017.05.24-12.02.28:866][903]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.02.28:870][903]LogInit: FAudioDevice initialized.
+[2017.05.24-12.02.28:897][903]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.02.28:900][903]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.02.28
+[2017.05.24-12.02.28:901][903]LogWorld: Bringing up level for play took: 0.002719
+[2017.05.24-12.02.28:902][903]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.28:902][903]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.28:902][903]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.679
+[2017.05.24-12.02.28:902][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.34:163][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.34:199][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.35:388][466]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.02.35:399][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.02.35:399][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.02.35:399][466]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:02:35 PM)
+[2017.05.24-12.02.35:399][466]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.02.35:417][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017507s)
+[2017.05.24-12.02.35:417][466]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.02.35:418][466]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.05.24-12.02.35:418][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.018357s)
+[2017.05.24-12.02.35:440][466]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.02.35:444][466]LogInit: FAudioDevice initialized.
+[2017.05.24-12.02.35:475][466]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.02.35:479][466]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.02.35
+[2017.05.24-12.02.35:479][466]LogWorld: Bringing up level for play took: 0.002778
+[2017.05.24-12.02.35:480][466]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.35:480][466]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.02.35:480][466]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.1
+[2017.05.24-12.02.35:480][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.03.01:893][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.03.01:929][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.03.12:154][723]LogSavePackage: Save=72.39ms
+[2017.05.24-12.03.12:154][723]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlA7125BC14C8E2A9B33B87CA0E8B127DC.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.03.12:158][723]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.03.31:217][131]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.03.46:390][646]LogSavePackage: Save=72.31ms
+[2017.05.24-12.03.46:390][646]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlF18F215242AEB5FB04F626A2E9D94805.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.03.46:394][646]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.04.17:116][774]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.04.18:398][839]LogSavePackage: Save=72.59ms
+[2017.05.24-12.04.18:398][839]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl4D62F8EC4C9292488CB94E910D84B931.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.04.18:402][839]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.04.35:343][979]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.04.35:353][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.04.35:353][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.04.35:354][979]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:04:35 PM)
+[2017.05.24-12.04.35:354][979]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.04.35:373][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019369s)
+[2017.05.24-12.04.35:374][979]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.04.35:374][979]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.05.24-12.04.35:374][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020374s)
+[2017.05.24-12.04.35:397][979]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.04.35:401][979]LogInit: FAudioDevice initialized.
+[2017.05.24-12.04.35:430][979]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.04.35:433][979]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.04.35
+[2017.05.24-12.04.35:434][979]LogWorld: Bringing up level for play took: 0.002760
+[2017.05.24-12.04.35:435][979]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.146
+[2017.05.24-12.04.35:435][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.04.46:853][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.04.46:908][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.01:104][617]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.05.02:017][656]LogSavePackage: Save=73.33ms
+[2017.05.24-12.05.02:017][656]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlBA187B5942A7C74972AC0396782538D2.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.05.02:021][656]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.05.02:817][707]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.05.02:827][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.02:827][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.05.02:827][707]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:05:02 PM)
+[2017.05.24-12.05.02:828][707]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.05.02:848][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020020s)
+[2017.05.24-12.05.02:848][707]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.05.02:848][707]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2017.05.24-12.05.02:848][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020932s)
+[2017.05.24-12.05.02:872][707]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.05.02:875][707]LogInit: FAudioDevice initialized.
+[2017.05.24-12.05.02:902][707]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.05.02:905][707]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.05.02
+[2017.05.24-12.05.02:906][707]LogWorld: Bringing up level for play took: 0.002730
+[2017.05.24-12.05.02:906][707]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.05.02:907][707]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.674
+[2017.05.24-12.05.02:907][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.24:362][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.24:415][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.38:087][155]LogSavePackage: Save=73.85ms
+[2017.05.24-12.05.38:087][155]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl665A5EC041D8552CCEA70480BE257AA3.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.05.38:090][155]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.05.41:438][414]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.05.41:449][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.41:449][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.05.41:449][414]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:05:41 PM)
+[2017.05.24-12.05.41:449][414]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.05.41:468][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019235s)
+[2017.05.24-12.05.41:469][414]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.05.41:469][414]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2017.05.24-12.05.41:469][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020171s)
+[2017.05.24-12.05.41:492][414]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.05.41:496][414]LogInit: FAudioDevice initialized.
+[2017.05.24-12.05.41:529][414]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.05.41:532][414]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.05.41
+[2017.05.24-12.05.41:532][414]LogWorld: Bringing up level for play took: 0.002871
+[2017.05.24-12.05.41:533][414]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.05.41:533][414]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.047
+[2017.05.24-12.05.41:534][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.57:070][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.05.57:119][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.06.25:521][618]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.05.24-12.06.27:015][748]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.06.27:026][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.06.27:026][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.06.27:026][748]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:06:27 PM)
+[2017.05.24-12.06.27:026][748]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.06.27:046][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019649s)
+[2017.05.24-12.06.27:046][748]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.06.27:046][748]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.05.24-12.06.27:047][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020735s)
+[2017.05.24-12.06.27:070][748]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.06.27:074][748]LogInit: FAudioDevice initialized.
+[2017.05.24-12.06.27:107][748]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.06.27:110][748]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.06.27
+[2017.05.24-12.06.27:111][748]LogWorld: Bringing up level for play took: 0.002834
+[2017.05.24-12.06.27:112][748]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.469
+[2017.05.24-12.06.27:112][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.06.48:147][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.06.48:211][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.06.54:952][403]LogSavePackage: Save=42.89ms
+[2017.05.24-12.06.54:952][403]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/SideScrollerCharacter9E5E0FA446EE6CF47C0F779461EDCF99.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.24-12.06.54:956][403]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.24-12.07.49:213][981]LogSavePackage: Save=75.80ms
+[2017.05.24-12.07.49:213][981]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl17F4A55E428BE08FB957FC8BD07D08D4.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.07.49:217][981]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.08.00:384][ 65]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.08.01:079][102]LogSavePackage: Save=75.13ms
+[2017.05.24-12.08.01:079][102]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl0EF52A2C46A5598BAFC2D8A3F39935EC.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.08.01:083][102]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.08.19:449][ 34]LogSavePackage: Save=75.54ms
+[2017.05.24-12.08.19:449][ 34]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl87EE9DA14F01D5BC01DEE6B89B7B3B2D.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.08.19:453][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.08.36:411][348]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.08.36:980][371]LogSavePackage: Save=74.79ms
+[2017.05.24-12.08.36:980][371]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControlFB7C8A7E4F7287F767B49EB5624F8B8A.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.08.36:984][371]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.09.15:474][839]LogSavePackage: Save=75.19ms
+[2017.05.24-12.09.15:475][839]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl6E0C554F4BF834D12E962392F5C53C1A.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.09.15:478][839]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.09.16:573][930]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.09.17:657][991]LogSavePackage: Save=74.82ms
+[2017.05.24-12.09.17:657][991]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl94DD03144291003934EDC1AE46D8F99F.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.09.17:659][991]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.09.18:639][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.09.18:649][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.09.18:649][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.09.18:650][ 71]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:09:18 PM)
+[2017.05.24-12.09.18:650][ 71]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.09.18:669][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019739s)
+[2017.05.24-12.09.18:670][ 71]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.09.18:670][ 71]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.05.24-12.09.18:670][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020694s)
+[2017.05.24-12.09.18:695][ 71]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.09.18:699][ 71]LogInit: FAudioDevice initialized.
+[2017.05.24-12.09.18:729][ 71]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.09.18:733][ 71]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.09.18
+[2017.05.24-12.09.18:733][ 71]LogWorld: Bringing up level for play took: 0.002810
+[2017.05.24-12.09.18:734][ 71]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.09.18:734][ 71]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.846
+[2017.05.24-12.09.18:734][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.09.59:612][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.09.59:668][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.10.49:594][291]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.10.50:100][305]LogSavePackage: Save=76.19ms
+[2017.05.24-12.10.50:100][305]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl132D5384423716F5E68131BA59A20B9E.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.10.50:104][305]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.10.51:144][390]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.10.51:155][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.10.51:155][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.10.51:155][390]PIE: New page: PIE session: Level_7 (May 24, 2017, 4:10:51 PM)
+[2017.05.24-12.10.51:155][390]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7
+[2017.05.24-12.10.51:175][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019909s)
+[2017.05.24-12.10.51:176][390]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.10.51:176][390]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.05.24-12.10.51:176][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_7.Level_7 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 (0.020904s)
+[2017.05.24-12.10.51:199][390]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.10.51:203][390]LogInit: FAudioDevice initialized.
+[2017.05.24-12.10.51:236][390]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.10.51:239][390]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.10.51
+[2017.05.24-12.10.51:240][390]LogWorld: Bringing up level for play took: 0.002722
+[2017.05.24-12.10.51:241][390]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7 -0.34
+[2017.05.24-12.10.51:241][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.10.51:241][390]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:288][391]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:301][392]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:313][393]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:325][394]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:337][395]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:348][396]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:361][397]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:373][398]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:385][399]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:397][400]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:409][401]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:421][402]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:433][403]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:445][404]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:457][405]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:469][406]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:483][407]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:495][408]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:506][409]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:519][410]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:530][411]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:542][412]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:555][413]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:567][414]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:579][415]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:590][416]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:602][417]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:614][418]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:626][419]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:637][420]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:649][421]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:662][422]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:674][423]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:686][424]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:698][425]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:710][426]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:722][427]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:735][428]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:747][429]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:760][430]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:772][431]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:784][432]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:797][433]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:809][434]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:821][435]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:833][436]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:845][437]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:857][438]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:869][439]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:881][440]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:893][441]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:905][442]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:917][443]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:929][444]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:941][445]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:953][446]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:965][447]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:977][448]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.51:989][449]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:001][450]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:012][451]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:024][452]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:036][453]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:048][454]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:061][455]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:072][456]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:085][457]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:096][458]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:108][459]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:120][460]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:132][461]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:144][462]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:157][463]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:169][464]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:181][465]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:193][466]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:204][467]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:216][468]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:228][469]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:240][470]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:252][471]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:264][472]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:276][473]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:288][474]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:300][475]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:312][476]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:324][477]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:335][478]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:348][479]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:360][480]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:372][481]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:384][482]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:396][483]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:408][484]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:419][485]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:431][486]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:443][487]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:455][488]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:467][489]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:479][490]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:491][491]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:503][492]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:515][493]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:527][494]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:539][495]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:551][496]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:563][497]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:575][498]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:587][499]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:598][500]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.52:611][501]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:624][502]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:637][503]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:650][504]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:663][505]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:675][506]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:688][507]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:701][508]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:714][509]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:726][510]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:739][511]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:752][512]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:764][513]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:777][514]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:789][515]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:802][516]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:815][517]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:828][518]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:840][519]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:853][520]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:865][521]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:878][522]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:891][523]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:903][524]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:915][525]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:928][526]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:941][527]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:954][528]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:966][529]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:980][530]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.52:993][531]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:005][532]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:018][533]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:031][534]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:044][535]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:057][536]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:069][537]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:082][538]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:095][539]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:107][540]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:120][541]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:133][542]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:146][543]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:159][544]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:171][545]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:184][546]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:196][547]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:209][548]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:221][549]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:234][550]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:247][551]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:260][552]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:272][553]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:285][554]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:297][555]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:310][556]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:323][557]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:335][558]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:348][559]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:361][560]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:373][561]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:385][562]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:397][563]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:410][564]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:422][565]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:434][566]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:446][567]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:459][568]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:471][569]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:483][570]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:496][571]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:508][572]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:521][573]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:533][574]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:545][575]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:557][576]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:569][577]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:582][578]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:595][579]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:607][580]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:619][581]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:631][582]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:643][583]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:655][584]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:667][585]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:679][586]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:692][587]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:704][588]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:716][589]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:728][590]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:740][591]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:752][592]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:764][593]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.53:777][594]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:790][595]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:803][596]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:815][597]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:828][598]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:840][599]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:853][600]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:865][601]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:878][602]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:890][603]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:903][604]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:915][605]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:927][606]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:940][607]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:953][608]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:965][609]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:978][610]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.53:990][611]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:004][612]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:016][613]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:029][614]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:042][615]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:055][616]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:068][617]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:081][618]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:093][619]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:106][620]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:119][621]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:131][622]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:144][623]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:157][624]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:170][625]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:182][626]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:195][627]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:208][628]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:220][629]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:233][630]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:246][631]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:259][632]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:271][633]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:284][634]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:297][635]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:310][636]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:322][637]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:336][638]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:349][639]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:362][640]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:375][641]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:387][642]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:401][643]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:413][644]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:426][645]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:439][646]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:452][647]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:465][648]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:477][649]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:490][650]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:502][651]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:515][652]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:527][653]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:540][654]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:552][655]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:565][656]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:577][657]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:589][658]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:602][659]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:614][660]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:626][661]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:639][662]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:651][663]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:664][664]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:676][665]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:688][666]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:701][667]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:713][668]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:725][669]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:738][670]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:751][671]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:763][672]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:776][673]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:788][674]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:800][675]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:812][676]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:824][677]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:836][678]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:849][679]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:861][680]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:873][681]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:885][682]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:897][683]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:909][684]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:921][685]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.54:933][686]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:947][687]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:960][688]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:972][689]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:984][690]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.54:998][691]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:011][692]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:024][693]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:036][694]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:050][695]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:062][696]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:075][697]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:088][698]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:101][699]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:114][700]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:126][701]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:139][702]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:152][703]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:165][704]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:178][705]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:191][706]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:204][707]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:217][708]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:230][709]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:243][710]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:255][711]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:269][712]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:282][713]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:294][714]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:307][715]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:320][716]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:333][717]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:346][718]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:359][719]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:371][720]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:384][721]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:397][722]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:409][723]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:421][724]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:434][725]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:447][726]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:460][727]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:473][728]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:485][729]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:498][730]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:511][731]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:524][732]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:536][733]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:550][734]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:563][735]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:575][736]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:588][737]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:601][738]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:614][739]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:627][740]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:639][741]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:652][742]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:665][743]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:677][744]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:690][745]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:703][746]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:715][747]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:728][748]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:740][749]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:752][750]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:765][751]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:777][752]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:789][753]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:802][754]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:814][755]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:826][756]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:839][757]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:851][758]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:863][759]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:876][760]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:888][761]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:901][762]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:913][763]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.55:925][764]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:937][765]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:949][766]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:961][767]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:974][768]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:986][769]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.55:998][770]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:011][771]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:022][772]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:034][773]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:047][774]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:058][775]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:070][776]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:082][777]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:094][778]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.56:106][779]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:119][780]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:132][781]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:145][782]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:158][783]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:170][784]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:183][785]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:195][786]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:207][787]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:220][788]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:233][789]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:246][790]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:258][791]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:270][792]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:284][793]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:297][794]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:309][795]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:321][796]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:334][797]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:347][798]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:359][799]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:372][800]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:384][801]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:397][802]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:409][803]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:422][804]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:434][805]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:447][806]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:460][807]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:473][808]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:485][809]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:499][810]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:512][811]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:524][812]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:537][813]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:550][814]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:563][815]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:575][816]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:588][817]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:601][818]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:614][819]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:627][820]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:639][821]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:652][822]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:665][823]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:677][824]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:690][825]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:702][826]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:715][827]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:728][828]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:741][829]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:754][830]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:767][831]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:780][832]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:793][833]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:805][834]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:818][835]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:831][836]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:843][837]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:856][838]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:869][839]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:881][840]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:894][841]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:906][842]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:918][843]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:931][844]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:943][845]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:956][846]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:968][847]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:980][848]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.56:992][849]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:004][850]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:016][851]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:029][852]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:041][853]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:053][854]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:066][855]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:078][856]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:090][857]LogBlueprintUserMessages: [PillarControl_352] true
+[2017.05.24-12.10.57:102][858]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:115][859]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:127][860]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:139][861]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:152][862]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:164][863]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:176][864]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:188][865]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:200][866]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:212][867]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:224][868]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:236][869]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:248][870]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:261][871]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:273][872]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:285][873]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:297][874]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:309][875]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:321][876]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:333][877]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:346][878]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:358][879]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:370][880]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:383][881]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:395][882]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:406][883]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:418][884]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:430][885]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:442][886]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:454][887]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:466][888]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:478][889]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:490][890]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:502][891]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:514][892]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:526][893]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:538][894]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:550][895]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:562][896]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:574][897]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:586][898]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:599][899]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:611][900]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:623][901]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:635][902]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:647][903]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:659][904]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:671][905]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:683][906]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:695][907]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:707][908]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:719][909]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:731][910]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:742][911]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:754][912]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:766][913]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:778][914]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:790][915]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:802][916]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:814][917]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:826][918]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:838][919]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:850][920]LogBlueprintUserMessages: [PillarControl_352] false
+[2017.05.24-12.10.57:850][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.10.57:907][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_7.Level_7_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_7.Level_7:PersistentLevel.Level_7'
+[2017.05.24-12.11.30:049][527]LogSavePackage: Save=255.24ms
+[2017.05.24-12.11.30:049][527]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_7_Auto2D615B3A248D76F1152CEC7B921177352.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Maps/Level_7_Auto2.umap'
+[2017.05.24-12.11.30:052][527]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Maps/Level_7_Auto2.umap
+[2017.05.24-12.11.30:053][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Level_7' took 0.290
+[2017.05.24-12.11.30:053][527]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2017.05.24-12.11.30:056][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/PillarControl] ([1] browsable assets)...
+[2017.05.24-12.11.30:056][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/PillarControl]
+[2017.05.24-12.11.30:141][527]LogSavePackage: Save=79.82ms
+[2017.05.24-12.11.30:141][527]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl_Auto24276CBE943EE1A473EE7899008C3B73B.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Blueprints/PillarControl_Auto2.uasset'
+[2017.05.24-12.11.30:143][527]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Autosaves/Game/SideScrollerBP/Blueprints/PillarControl_Auto2.uasset
+[2017.05.24-12.11.30:143][527]LogFileHelpers: Auto-saving content packages took 0.089
+[2017.05.24-12.11.50:800][524]BlueprintLog: New page: Compile PillarControl
+[2017.05.24-12.11.51:436][541]LogSavePackage: Save=74.77ms
+[2017.05.24-12.11.51:436][541]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl5AC077A947C958C773E050B60D0768DF.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
+[2017.05.24-12.11.51:440][541]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.13.27:753][529]LogSavePackage: Save=237.25ms
+[2017.05.24-12.13.27:753][529]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_7FA9A454546D50E4AEEB8A3B0DA1721B6.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap'
+[2017.05.24-12.13.27:758][529]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap
+[2017.05.24-12.13.32:744][792]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.13.32:776][792]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.13.32:776][792]LightingResults: New page: Lighting Build
+[2017.05.24-12.13.32:777][792]LoadErrors: New page: Loading map: Level_1.umap
+[2017.05.24-12.13.32:778][792]MapCheck: New page: Map Check
+[2017.05.24-12.13.32:778][792]LightingResults: New page: Lighting Build
+[2017.05.24-12.13.32:903][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.13.32:921][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.13.33:022][792]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.545ms to complete.
+[2017.05.24-12.13.33:023][792]LogFileHelpers: Loading map 'Level_1' took 0.247
+[2017.05.24-12.13.40:595][211]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.13.40:632][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.13.40:632][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.13.40:632][211]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:13:40 PM)
+[2017.05.24-12.13.40:632][211]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.13.40:651][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018593s)
+[2017.05.24-12.13.40:651][211]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.13.40:651][211]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.05.24-12.13.40:652][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.019483s)
+[2017.05.24-12.13.40:675][211]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.13.40:679][211]LogInit: FAudioDevice initialized.
+[2017.05.24-12.13.40:709][211]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.13.40:712][211]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.13.40
+[2017.05.24-12.13.40:712][211]LogWorld: Bringing up level for play took: 0.002529
+[2017.05.24-12.13.40:713][211]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.13.40:713][211]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 -0.867
+[2017.05.24-12.13.40:714][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.13.42:474][291]Cmd: LevelEditor.ToggleImmersive
+[2017.05.24-12.13.42:617][292]LogRenderer: Reallocating scene render targets to support 1468x1032 NumSamples 1 (Frame:158703).
+[2017.05.24-12.13.42:670][293]LogRenderer: Reallocating scene render targets to support 1920x1172 NumSamples 1 (Frame:158705).
+[2017.05.24-12.13.50:482][838]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.13.50:482][838]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.13.50:499][838]Cmd: MEM
+[2017.05.24-12.13.50:512][838]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.13.50:512][838]LogMemory: Process Physical Memory: 1796.01 MB used, 1922.25 MB peak
+[2017.05.24-12.13.50:512][838]LogMemory: Process Virtual Memory: 2871.42 MB used, 3397.20 MB peak
+[2017.05.24-12.13.50:512][838]LogMemory: Physical Memory: 8266.30 MB used,  57171.54 MB free, 65437.84 MB total
+[2017.05.24-12.13.50:512][838]LogMemory: Virtual Memory: 3868.31 MB used,  57171.54 MB free, 134217728.00 MB total
+[2017.05.24-12.13.50:512][838]LogMemory: 
+[2017.05.24-12.13.50:512][838]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.13.50:556][838]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1282]
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: Stack: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000532E95E6
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000053099B82
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000530AB666
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000004BE5B7A7
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000004BE2BFCD
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056A90DFA
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CC158A
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD4DC0
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD42B7
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421B890D
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004216E08E
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DC890
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003FB9637F
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000403A2156
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E3DEE3
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EB40
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EBBA
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E40A29
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E422B6
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: KERNEL32.DLL!0x0000000094552774
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: ntdll.dll!0x0000000094720D61
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:566][838]LogStats:                SubmitErrorReport -  0.000 s

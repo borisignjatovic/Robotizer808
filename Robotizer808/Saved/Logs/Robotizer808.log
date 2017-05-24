@@ -1444,3 +1444,1073 @@ PillarControl_C.Timeline_0__UpdateFunc
 [2017.05.24-12.11.51:436][541]LogSavePackage: Save=74.77ms
 [2017.05.24-12.11.51:436][541]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/PillarControl5AC077A947C958C773E050B60D0768DF.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset'
 [2017.05.24-12.11.51:440][541]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/PillarControl.uasset
+[2017.05.24-12.13.27:753][529]LogSavePackage: Save=237.25ms
+[2017.05.24-12.13.27:753][529]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_7FA9A454546D50E4AEEB8A3B0DA1721B6.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap'
+[2017.05.24-12.13.27:758][529]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap
+[2017.05.24-12.13.32:744][792]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.13.32:776][792]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.13.32:776][792]LightingResults: New page: Lighting Build
+[2017.05.24-12.13.32:777][792]LoadErrors: New page: Loading map: Level_1.umap
+[2017.05.24-12.13.32:778][792]MapCheck: New page: Map Check
+[2017.05.24-12.13.32:778][792]LightingResults: New page: Lighting Build
+[2017.05.24-12.13.32:903][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.13.32:921][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.13.33:022][792]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.545ms to complete.
+[2017.05.24-12.13.33:023][792]LogFileHelpers: Loading map 'Level_1' took 0.247
+[2017.05.24-12.13.40:595][211]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.13.40:632][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.13.40:632][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.13.40:632][211]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:13:40 PM)
+[2017.05.24-12.13.40:632][211]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.13.40:651][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018593s)
+[2017.05.24-12.13.40:651][211]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.13.40:651][211]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.05.24-12.13.40:652][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.019483s)
+[2017.05.24-12.13.40:675][211]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.13.40:679][211]LogInit: FAudioDevice initialized.
+[2017.05.24-12.13.40:709][211]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.13.40:712][211]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.13.40
+[2017.05.24-12.13.40:712][211]LogWorld: Bringing up level for play took: 0.002529
+[2017.05.24-12.13.40:713][211]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.13.40:713][211]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 -0.867
+[2017.05.24-12.13.40:714][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.13.42:474][291]Cmd: LevelEditor.ToggleImmersive
+[2017.05.24-12.13.42:617][292]LogRenderer: Reallocating scene render targets to support 1468x1032 NumSamples 1 (Frame:158703).
+[2017.05.24-12.13.42:670][293]LogRenderer: Reallocating scene render targets to support 1920x1172 NumSamples 1 (Frame:158705).
+[2017.05.24-12.13.50:482][838]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.13.50:482][838]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.13.50:499][838]Cmd: MEM
+[2017.05.24-12.13.50:512][838]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.13.50:512][838]LogMemory: Process Physical Memory: 1796.01 MB used, 1922.25 MB peak
+[2017.05.24-12.13.50:512][838]LogMemory: Process Virtual Memory: 2871.42 MB used, 3397.20 MB peak
+[2017.05.24-12.13.50:512][838]LogMemory: Physical Memory: 8266.30 MB used,  57171.54 MB free, 65437.84 MB total
+[2017.05.24-12.13.50:512][838]LogMemory: Virtual Memory: 3868.31 MB used,  57171.54 MB free, 134217728.00 MB total
+[2017.05.24-12.13.50:512][838]LogMemory: 
+[2017.05.24-12.13.50:512][838]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.13.50:556][838]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1282]
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: Stack: 
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000532E95E6
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000053099B82
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000530AB666
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000004BE5B7A7
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000004BE2BFCD
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056A90DFA
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CC158A
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD4DC0
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000056CD42B7
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421B890D
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004216E08E
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000421DC890
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003FB9637F
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000403A2156
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E3DEE3
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EB40
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E2EBBA
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E40A29
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: UE4Editor.exe!0x0000000067E422B6
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: KERNEL32.DLL!0x0000000094552774
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: ntdll.dll!0x0000000094720D61
+[2017.05.24-12.13.50:556][838]LogOutputDevice:Error: 
+[2017.05.24-12.13.50:566][838]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.24-12.13.50:918][838]LogStats:                    SendNewReport -  0.352 s
+[2017.05.24-12.13.50:918][838]LogStats:             FDebug::EnsureFailed -  0.363 s
+[2017.05.24-12.13.51:264][838]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.13.51:264][838]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.13.51:277][838]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.13.51
+[2017.05.24-12.13.51:277][838]LogWorld: Bringing up level for play took: 0.011864
+[2017.05.24-12.13.51:278][838]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.13.51:278][838]LogLoad: Took 0.796145 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_2)
+[2017.05.24-12.14.10:222][195]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.14.10:222][195]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.14.10:243][195]Cmd: MEM
+[2017.05.24-12.14.10:255][195]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.14.10:255][195]LogMemory: Process Physical Memory: 1900.85 MB used, 2022.19 MB peak
+[2017.05.24-12.14.10:255][195]LogMemory: Process Virtual Memory: 3055.61 MB used, 3444.71 MB peak
+[2017.05.24-12.14.10:255][195]LogMemory: Physical Memory: 8340.89 MB used,  57096.95 MB free, 65437.84 MB total
+[2017.05.24-12.14.10:255][195]LogMemory: Virtual Memory: 4060.43 MB used,  57096.95 MB free, 134217728.00 MB total
+[2017.05.24-12.14.10:255][195]LogMemory: 
+[2017.05.24-12.14.10:255][195]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.14.10:508][195]LogAIModule: Creating AISystem for world Level_3
+[2017.05.24-12.14.10:508][195]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.14.10:524][195]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_3.Level_3 up for play (max tick rate 0) at 2017.05.24-14.14.10
+[2017.05.24-12.14.10:524][195]LogWorld: Bringing up level for play took: 0.015191
+[2017.05.24-12.14.10:525][195]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.10:525][195]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.10:525][195]LogLoad: Took 0.303118 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_3)
+[2017.05.24-12.14.23:088][102]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_4
+[2017.05.24-12.14.23:089][102]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_4
+[2017.05.24-12.14.23:109][102]Cmd: MEM
+[2017.05.24-12.14.23:122][102]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.14.23:122][102]LogMemory: Process Physical Memory: 1899.86 MB used, 2057.11 MB peak
+[2017.05.24-12.14.23:122][102]LogMemory: Process Virtual Memory: 3055.97 MB used, 3444.71 MB peak
+[2017.05.24-12.14.23:122][102]LogMemory: Physical Memory: 8339.21 MB used,  57098.62 MB free, 65437.84 MB total
+[2017.05.24-12.14.23:122][102]LogMemory: Virtual Memory: 4075.37 MB used,  57098.62 MB free, 134217728.00 MB total
+[2017.05.24-12.14.23:122][102]LogMemory: 
+[2017.05.24-12.14.23:122][102]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.14.23:389][102]LogAIModule: Creating AISystem for world Level_4
+[2017.05.24-12.14.23:390][102]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.14.23:405][102]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_4.Level_4 up for play (max tick rate 0) at 2017.05.24-14.14.23
+[2017.05.24-12.14.23:405][102]LogWorld: Bringing up level for play took: 0.014771
+[2017.05.24-12.14.23:406][102]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.23:406][102]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.23:406][102]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.23:406][102]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.14.23:407][102]LogLoad: Took 0.317921 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_4)
+[2017.05.24-12.15.36:948][444]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_5
+[2017.05.24-12.15.36:948][444]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_5
+[2017.05.24-12.15.36:968][444]Cmd: MEM
+[2017.05.24-12.15.36:980][444]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.15.36:980][444]LogMemory: Process Physical Memory: 1906.20 MB used, 2057.39 MB peak
+[2017.05.24-12.15.36:980][444]LogMemory: Process Virtual Memory: 3059.01 MB used, 3444.71 MB peak
+[2017.05.24-12.15.36:980][444]LogMemory: Physical Memory: 8324.24 MB used,  57113.59 MB free, 65437.84 MB total
+[2017.05.24-12.15.36:980][444]LogMemory: Virtual Memory: 4061.31 MB used,  57113.59 MB free, 134217728.00 MB total
+[2017.05.24-12.15.36:980][444]LogMemory: 
+[2017.05.24-12.15.36:980][444]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.15.37:258][444]LogAIModule: Creating AISystem for world Level_5
+[2017.05.24-12.15.37:258][444]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.15.37:274][444]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_5.Level_5 up for play (max tick rate 0) at 2017.05.24-14.15.37
+[2017.05.24-12.15.37:275][444]LogWorld: Bringing up level for play took: 0.016147
+[2017.05.24-12.15.37:276][444]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.15.37:276][444]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.15.37:276][444]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.15.37:276][444]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.15.37:276][444]LogLoad: Took 0.327535 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_5)
+[2017.05.24-12.16.13:569][ 74]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_6
+[2017.05.24-12.16.13:569][ 74]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_6
+[2017.05.24-12.16.13:590][ 74]Cmd: MEM
+[2017.05.24-12.16.13:602][ 74]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.16.13:602][ 74]LogMemory: Process Physical Memory: 1907.67 MB used, 2057.39 MB peak
+[2017.05.24-12.16.13:602][ 74]LogMemory: Process Virtual Memory: 3065.05 MB used, 3444.71 MB peak
+[2017.05.24-12.16.13:602][ 74]LogMemory: Physical Memory: 8342.83 MB used,  57095.00 MB free, 65437.84 MB total
+[2017.05.24-12.16.13:602][ 74]LogMemory: Virtual Memory: 4064.43 MB used,  57095.00 MB free, 134217728.00 MB total
+[2017.05.24-12.16.13:602][ 74]LogMemory: 
+[2017.05.24-12.16.13:602][ 74]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.16.13:854][ 74]LogAIModule: Creating AISystem for world Level_6
+[2017.05.24-12.16.13:854][ 74]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.16.13:877][ 74]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_6.Level_6 up for play (max tick rate 0) at 2017.05.24-14.16.13
+[2017.05.24-12.16.13:877][ 74]LogWorld: Bringing up level for play took: 0.022111
+[2017.05.24-12.16.13:878][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:878][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:879][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:879][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:879][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:879][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.13:879][ 74]LogLoad: Took 0.310051 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_6)
+[2017.05.24-12.16.46:342][434]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_7
+[2017.05.24-12.16.46:342][434]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_7
+[2017.05.24-12.16.46:363][434]Cmd: MEM
+[2017.05.24-12.16.46:375][434]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.16.46:375][434]LogMemory: Process Physical Memory: 1908.41 MB used, 2066.38 MB peak
+[2017.05.24-12.16.46:375][434]LogMemory: Process Virtual Memory: 3064.05 MB used, 3444.71 MB peak
+[2017.05.24-12.16.46:375][434]LogMemory: Physical Memory: 8356.39 MB used,  57081.45 MB free, 65437.84 MB total
+[2017.05.24-12.16.46:375][434]LogMemory: Virtual Memory: 4066.56 MB used,  57081.45 MB free, 134217728.00 MB total
+[2017.05.24-12.16.46:375][434]LogMemory: 
+[2017.05.24-12.16.46:375][434]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.16.46:630][434]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.16.46:630][434]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.16.46:643][434]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_7.Level_7 up for play (max tick rate 0) at 2017.05.24-14.16.46
+[2017.05.24-12.16.46:643][434]LogWorld: Bringing up level for play took: 0.012141
+[2017.05.24-12.16.46:644][434]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.16.46:644][434]LogLoad: Took 0.302430 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_7)
+[2017.05.24-12.16.54:179][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.16.54:243][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.17.21:977][868]LogEditorTransaction: Undo Delete current selection
+[2017.05.24-12.17.50:586][171]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.05.24-12.17.51:161][199]LogSavePackage: Save=42.00ms
+[2017.05.24-12.17.51:161][199]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/SideScrollerCharacterA5A74B454FC1C81E335DEA8F9ABEA440.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.24-12.17.51:165][199]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.24-12.19.22:531][573]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.19.45:452][292]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.20.00:734][637]LogSavePackage: Save=35.80ms
+[2017.05.24-12.20.00:734][637]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/SideScrollerCharacter2B9CAE82446332C92ACEE2B0E067A529.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.24-12.20.00:736][637]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.24-12.20.02:329][777]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.20.02:339][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.20.02:339][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.20.02:339][777]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:20:02 PM)
+[2017.05.24-12.20.02:339][777]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.20.02:360][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021028s)
+[2017.05.24-12.20.02:361][777]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.20.02:361][777]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2017.05.24-12.20.02:361][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.021935s)
+[2017.05.24-12.20.02:388][777]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.20.02:392][777]LogInit: FAudioDevice initialized.
+[2017.05.24-12.20.02:423][777]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.20.02:426][777]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.20.02
+[2017.05.24-12.20.02:426][777]LogWorld: Bringing up level for play took: 0.002579
+[2017.05.24-12.20.02:427][777]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.20.02:427][777]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 0.847
+[2017.05.24-12.20.02:428][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.20.07:660][251]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_1
+[2017.05.24-12.20.07:660][251]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_1
+[2017.05.24-12.20.07:678][251]Cmd: MEM
+[2017.05.24-12.20.07:693][251]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.20.07:693][251]LogMemory: Process Physical Memory: 2721.21 MB used, 2744.81 MB peak
+[2017.05.24-12.20.07:693][251]LogMemory: Process Virtual Memory: 4059.53 MB used, 4160.33 MB peak
+[2017.05.24-12.20.07:693][251]LogMemory: Physical Memory: 9157.27 MB used,  56280.57 MB free, 65437.84 MB total
+[2017.05.24-12.20.07:693][251]LogMemory: Virtual Memory: 5002.82 MB used,  56280.57 MB free, 134217728.00 MB total
+[2017.05.24-12.20.07:693][251]LogMemory: 
+[2017.05.24-12.20.07:693][251]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.20.07:693][251]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.20.07:708][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014960s)
+[2017.05.24-12.20.07:709][251]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.20.07:709][251]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.05.24-12.20.07:709][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.015826s)
+[2017.05.24-12.20.07:709][251]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.20.07:715][251]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.20.07
+[2017.05.24-12.20.07:716][251]LogWorld: Bringing up level for play took: 0.005903
+[2017.05.24-12.20.07:717][251]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.20.07:717][251]LogLoad: Took 0.057286 seconds to LoadMap(/Game/SideScrollerBP/Maps/UEDPIE_0_Level_1)
+[2017.05.24-12.20.30:330][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.20.30:365][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.20.33:466][634]LogSavePackage: Save=242.87ms
+[2017.05.24-12.20.33:467][634]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_1686B3EDF4C23F983A27794B338556D06.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap'
+[2017.05.24-12.20.33:471][634]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap
+[2017.05.24-12.20.44:212][634]LogEditorViewport: Clicking on Actor (LMB): Sky_C (Sky)
+[2017.05.24-12.24.36:126][675]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.05.24-12.24.36:698][698]LogSavePackage: Save=42.80ms
+[2017.05.24-12.24.36:698][698]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/SideScrollerCharacterECEFF4D148A1C7429E4A5093E76C1BA4.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.05.24-12.24.36:701][698]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.05.24-12.25.12:721][886]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.25.14:035][999]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.25.14:070][999]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.14:070][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.25.14:070][999]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:25:14 PM)
+[2017.05.24-12.25.14:070][999]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.25.14:089][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019377s)
+[2017.05.24-12.25.14:090][999]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.25.14:090][999]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.05.24-12.25.14:090][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.020357s)
+[2017.05.24-12.25.14:143][999]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.25.14:147][999]LogInit: FAudioDevice initialized.
+[2017.05.24-12.25.14:174][999]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.14:177][999]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.25.14
+[2017.05.24-12.25.14:178][999]LogWorld: Bringing up level for play took: 0.002579
+[2017.05.24-12.25.14:179][999]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.14:179][999]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 0.599
+[2017.05.24-12.25.14:179][999]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.20:014][647]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_1
+[2017.05.24-12.25.20:014][647]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_1
+[2017.05.24-12.25.20:033][647]Cmd: MEM
+[2017.05.24-12.25.20:049][647]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.25.20:049][647]LogMemory: Process Physical Memory: 3151.60 MB used, 3152.56 MB peak
+[2017.05.24-12.25.20:049][647]LogMemory: Process Virtual Memory: 4469.87 MB used, 4609.64 MB peak
+[2017.05.24-12.25.20:049][647]LogMemory: Physical Memory: 9553.45 MB used,  55884.39 MB free, 65437.84 MB total
+[2017.05.24-12.25.20:049][647]LogMemory: Virtual Memory: 5460.51 MB used,  55884.39 MB free, 134217728.00 MB total
+[2017.05.24-12.25.20:049][647]LogMemory: 
+[2017.05.24-12.25.20:049][647]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.25.20:049][647]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.25.20:064][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015142s)
+[2017.05.24-12.25.20:065][647]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.25.20:065][647]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.05.24-12.25.20:065][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.016042s)
+[2017.05.24-12.25.20:065][647]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.20:072][647]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.25.20
+[2017.05.24-12.25.20:072][647]LogWorld: Bringing up level for play took: 0.005792
+[2017.05.24-12.25.20:073][647]LogLoad: Took 0.058711 seconds to LoadMap(/Game/SideScrollerBP/Maps/UEDPIE_0_Level_1)
+[2017.05.24-12.25.26:552][368]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.25.26:553][368]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.25.26:571][368]Cmd: MEM
+[2017.05.24-12.25.26:586][368]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.25.26:586][368]LogMemory: Process Physical Memory: 3135.73 MB used, 3164.68 MB peak
+[2017.05.24-12.25.26:586][368]LogMemory: Process Virtual Memory: 4387.57 MB used, 4761.59 MB peak
+[2017.05.24-12.25.26:586][368]LogMemory: Physical Memory: 9539.15 MB used,  55898.68 MB free, 65437.84 MB total
+[2017.05.24-12.25.26:586][368]LogMemory: Virtual Memory: 5445.07 MB used,  55898.68 MB free, 134217728.00 MB total
+[2017.05.24-12.25.26:586][368]LogMemory: 
+[2017.05.24-12.25.26:586][368]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.25.26:853][368]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.25.26:853][368]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.26:866][368]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.25.26
+[2017.05.24-12.25.26:866][368]LogWorld: Bringing up level for play took: 0.012105
+[2017.05.24-12.25.26:867][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.26:867][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.26:867][368]LogLoad: Took 0.314772 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_2)
+[2017.05.24-12.25.41:258][964]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.25.41:258][964]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.25.41:284][964]Cmd: MEM
+[2017.05.24-12.25.41:298][964]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.25.41:298][964]LogMemory: Process Physical Memory: 3176.65 MB used, 3316.28 MB peak
+[2017.05.24-12.25.41:298][964]LogMemory: Process Virtual Memory: 4416.53 MB used, 4761.59 MB peak
+[2017.05.24-12.25.41:298][964]LogMemory: Physical Memory: 9575.16 MB used,  55862.68 MB free, 65437.84 MB total
+[2017.05.24-12.25.41:298][964]LogMemory: Virtual Memory: 5473.01 MB used,  55862.68 MB free, 134217728.00 MB total
+[2017.05.24-12.25.41:299][964]LogMemory: 
+[2017.05.24-12.25.41:299][964]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.25.41:561][964]LogAIModule: Creating AISystem for world Level_3
+[2017.05.24-12.25.41:561][964]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.41:576][964]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_3.Level_3 up for play (max tick rate 0) at 2017.05.24-14.25.41
+[2017.05.24-12.25.41:577][964]LogWorld: Bringing up level for play took: 0.015186
+[2017.05.24-12.25.41:578][964]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.41:578][964]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.41:578][964]LogLoad: Took 0.319639 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_3)
+[2017.05.24-12.25.45:210][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.45:324][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.50:642][866]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.25.51:992][984]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.25.52:012][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.52:012][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.25.52:012][984]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:25:52 PM)
+[2017.05.24-12.25.52:012][984]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.25.52:028][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015531s)
+[2017.05.24-12.25.52:028][984]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.25.52:028][984]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.05.24-12.25.52:028][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.016437s)
+[2017.05.24-12.25.52:083][984]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.25.52:087][984]LogInit: FAudioDevice initialized.
+[2017.05.24-12.25.52:115][984]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.52:118][984]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.25.52
+[2017.05.24-12.25.52:118][984]LogWorld: Bringing up level for play took: 0.002549
+[2017.05.24-12.25.52:119][984]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 0.539
+[2017.05.24-12.25.52:119][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.25.58:968][749]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.25.58:968][749]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.25.58:986][749]Cmd: MEM
+[2017.05.24-12.25.59:001][749]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.25.59:001][749]LogMemory: Process Physical Memory: 3163.52 MB used, 3316.28 MB peak
+[2017.05.24-12.25.59:001][749]LogMemory: Process Virtual Memory: 4473.38 MB used, 4786.85 MB peak
+[2017.05.24-12.25.59:001][749]LogMemory: Physical Memory: 9556.08 MB used,  55881.75 MB free, 65437.84 MB total
+[2017.05.24-12.25.59:002][749]LogMemory: Virtual Memory: 5490.45 MB used,  55881.75 MB free, 134217728.00 MB total
+[2017.05.24-12.25.59:002][749]LogMemory: 
+[2017.05.24-12.25.59:002][749]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.25.59:262][749]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.25.59:262][749]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.25.59:275][749]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.25.59
+[2017.05.24-12.25.59:275][749]LogWorld: Bringing up level for play took: 0.011761
+[2017.05.24-12.25.59:276][749]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.25.59:276][749]LogLoad: Took 0.307557 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_2)
+[2017.05.24-12.26.01:466][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.01:576][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.06:167][428]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.26.07:121][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.26.07:141][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.07:141][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.26.07:141][508]PIE: New page: PIE session: Level_1 (May 24, 2017, 4:26:07 PM)
+[2017.05.24-12.26.07:141][508]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1
+[2017.05.24-12.26.07:157][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015985s)
+[2017.05.24-12.26.07:158][508]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.26.07:158][508]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.05.24-12.26.07:158][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_1.Level_1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 (0.016882s)
+[2017.05.24-12.26.07:211][508]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.26.07:215][508]LogInit: FAudioDevice initialized.
+[2017.05.24-12.26.07:243][508]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.26.07:245][508]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.05.24-14.26.07
+[2017.05.24-12.26.07:246][508]LogWorld: Bringing up level for play took: 0.002560
+[2017.05.24-12.26.07:247][508]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_1 -0.333
+[2017.05.24-12.26.07:247][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.12:882][142]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.26.12:882][142]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_2
+[2017.05.24-12.26.12:901][142]Cmd: MEM
+[2017.05.24-12.26.12:917][142]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.26.12:917][142]LogMemory: Process Physical Memory: 3227.58 MB used, 3319.30 MB peak
+[2017.05.24-12.26.12:917][142]LogMemory: Process Virtual Memory: 4483.28 MB used, 4965.22 MB peak
+[2017.05.24-12.26.12:917][142]LogMemory: Physical Memory: 9628.07 MB used,  55809.76 MB free, 65437.84 MB total
+[2017.05.24-12.26.12:917][142]LogMemory: Virtual Memory: 5571.07 MB used,  55809.76 MB free, 134217728.00 MB total
+[2017.05.24-12.26.12:917][142]LogMemory: 
+[2017.05.24-12.26.12:917][142]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.26.13:180][142]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.26.13:181][142]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.26.13:193][142]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.26.13
+[2017.05.24-12.26.13:193][142]LogWorld: Bringing up level for play took: 0.011888
+[2017.05.24-12.26.13:194][142]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.26.13:194][142]LogLoad: Took 0.312260 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_2)
+[2017.05.24-12.26.15:608][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.15:716][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.05.24-12.26.27:962][551]BlueprintLog: New page: Compile Level_1
+[2017.05.24-12.26.33:553][ 23]LogSavePackage: Save=243.98ms
+[2017.05.24-12.26.33:553][ 23]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_1116E33CA4EED18F4FCB48CAF1837ECD8.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap'
+[2017.05.24-12.26.33:558][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap
+[2017.05.24-12.26.35:567][174]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.26.35:599][174]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.26.35:599][174]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.35:600][174]LoadErrors: New page: Loading map: Level_2.umap
+[2017.05.24-12.26.35:660][174]MapCheck: New page: Map Check
+[2017.05.24-12.26.35:660][174]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.35:803][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.26.35:826][174]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.26.35:923][174]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.662ms to complete.
+[2017.05.24-12.26.35:923][174]LogFileHelpers: Loading map 'Level_2' took 0.325
+[2017.05.24-12.26.43:763][866]BlueprintLog: New page: Compile Level_2
+[2017.05.24-12.26.45:099][966]LogSavePackage: Save=245.50ms
+[2017.05.24-12.26.45:099][966]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_2CF6194D94D9955DB15E9329C8C389277.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap'
+[2017.05.24-12.26.45:104][966]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap
+[2017.05.24-12.26.45:752][ 25]LogAIModule: Creating AISystem for world Level_3
+[2017.05.24-12.26.45:786][ 25]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.26.45:786][ 25]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.45:787][ 25]LoadErrors: New page: Loading map: Level_3.umap
+[2017.05.24-12.26.45:820][ 25]MapCheck: New page: Map Check
+[2017.05.24-12.26.45:820][ 25]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.45:985][ 25]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.26.46:004][ 25]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.26.46:101][ 25]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.785ms to complete.
+[2017.05.24-12.26.46:101][ 25]LogFileHelpers: Loading map 'Level_3' took 0.316
+[2017.05.24-12.26.53:235][610]LogSavePackage: Save=254.26ms
+[2017.05.24-12.26.53:235][610]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_33A5C8FCC4C421EE1E383CCB70DFD5E5B.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_3.umap'
+[2017.05.24-12.26.53:240][610]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_3.umap
+[2017.05.24-12.26.55:063][781]LogAIModule: Creating AISystem for world Level_4
+[2017.05.24-12.26.55:098][781]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.26.55:098][781]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.55:099][781]LoadErrors: New page: Loading map: Level_4.umap
+[2017.05.24-12.26.55:132][781]MapCheck: New page: Map Check
+[2017.05.24-12.26.55:132][781]LightingResults: New page: Lighting Build
+[2017.05.24-12.26.55:317][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.26.55:336][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.26.55:432][781]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.661ms to complete.
+[2017.05.24-12.26.55:432][781]LogFileHelpers: Loading map 'Level_4' took 0.335
+[2017.05.24-12.27.00:469][197]BlueprintLog: New page: Compile Level_4
+[2017.05.24-12.27.01:832][279]LogSavePackage: Save=314.85ms
+[2017.05.24-12.27.01:832][279]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_4A4C2123E44A851CF506D72AD429A916A.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_4.umap'
+[2017.05.24-12.27.01:837][279]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_4.umap
+[2017.05.24-12.27.03:477][417]LogAIModule: Creating AISystem for world Level_5
+[2017.05.24-12.27.03:513][417]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.27.03:513][417]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.03:514][417]LoadErrors: New page: Loading map: Level_5.umap
+[2017.05.24-12.27.03:546][417]MapCheck: New page: Map Check
+[2017.05.24-12.27.03:546][417]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.03:753][417]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.27.03:772][417]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.27.03:868][417]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.775ms to complete.
+[2017.05.24-12.27.03:868][417]LogFileHelpers: Loading map 'Level_5' took 0.356
+[2017.05.24-12.27.07:484][696]BlueprintLog: New page: Compile Level_5
+[2017.05.24-12.27.08:772][782]LogSavePackage: Save=257.20ms
+[2017.05.24-12.27.08:772][782]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_5CBFDEC704FF66378BD07A28EBD08D99F.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_5.umap'
+[2017.05.24-12.27.08:776][782]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_5.umap
+[2017.05.24-12.27.09:822][875]LogAIModule: Creating AISystem for world Level_6
+[2017.05.24-12.27.09:867][875]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_6.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.27.09:867][875]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.09:868][875]LoadErrors: New page: Loading map: Level_6.umap
+[2017.05.24-12.27.09:901][875]MapCheck: New page: Map Check
+[2017.05.24-12.27.09:901][875]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.10:138][875]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.27.10:157][875]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.27.10:253][875]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.383ms to complete.
+[2017.05.24-12.27.10:253][875]LogFileHelpers: Loading map 'Level_6' took 0.387
+[2017.05.24-12.27.14:380][179]LogSavePackage: Save=271.73ms
+[2017.05.24-12.27.14:380][179]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_62804E43F4A22932E3A250BBFBD671403.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_6.umap'
+[2017.05.24-12.27.14:385][179]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_6.umap
+[2017.05.24-12.27.15:583][287]LogAIModule: Creating AISystem for world Level_7
+[2017.05.24-12.27.15:616][287]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.27.15:617][287]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.15:618][287]LoadErrors: New page: Loading map: Level_7.umap
+[2017.05.24-12.27.15:650][287]MapCheck: New page: Map Check
+[2017.05.24-12.27.15:650][287]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.15:888][287]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.27.15:908][287]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.27.16:004][287]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.985ms to complete.
+[2017.05.24-12.27.16:004][287]LogFileHelpers: Loading map 'Level_7' took 0.389
+[2017.05.24-12.27.20:074][592]LogSavePackage: Save=248.08ms
+[2017.05.24-12.27.20:074][592]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_7D7A93FF84D9EDAAD567861A77CAE5FB0.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap'
+[2017.05.24-12.27.20:079][592]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_7.umap
+[2017.05.24-12.27.27:860][349]LogAIModule: Creating AISystem for world Level_1
+[2017.05.24-12.27.27:891][349]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.27.27:891][349]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.27:893][349]LoadErrors: New page: Loading map: Level_1.umap
+[2017.05.24-12.27.27:925][349]MapCheck: New page: Map Check
+[2017.05.24-12.27.27:925][349]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.28:189][349]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.27.28:208][349]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.27.28:304][349]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.721ms to complete.
+[2017.05.24-12.27.28:304][349]LogFileHelpers: Loading map 'Level_1' took 0.414
+[2017.05.24-12.27.30:875][561]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.27.30:905][561]Cmd: MAP LOAD FILE="../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.24-12.27.30:905][561]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.30:907][561]LoadErrors: New page: Loading map: Level_2.umap
+[2017.05.24-12.27.30:908][561]MapCheck: New page: Map Check
+[2017.05.24-12.27.30:908][561]LightingResults: New page: Lighting Build
+[2017.05.24-12.27.31:182][561]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.24-12.27.31:201][561]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.24-12.27.31:297][561]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.729ms to complete.
+[2017.05.24-12.27.31:297][561]LogFileHelpers: Loading map 'Level_2' took 0.393
+[2017.05.24-12.27.32:569][671]LogEditorViewport: Clicking on Actor (LMB): Collectible_C (Collectible)
+[2017.05.24-12.27.38:177][108]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.24-12.27.40:817][296]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.27.40:840][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.27.40:840][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.27.40:840][296]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:27:40 PM)
+[2017.05.24-12.27.40:840][296]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.27.40:859][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019207s)
+[2017.05.24-12.27.40:860][296]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.27.40:860][296]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2017.05.24-12.27.40:860][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.020136s)
+[2017.05.24-12.27.40:886][296]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.27.40:890][296]LogInit: FAudioDevice initialized.
+[2017.05.24-12.27.40:917][296]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.27.40:920][296]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.27.40
+[2017.05.24-12.27.40:920][296]LogWorld: Bringing up level for play took: 0.002703
+[2017.05.24-12.27.40:921][296]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.27.40:921][296]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.27.40:922][296]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 -0.659
+[2017.05.24-12.27.40:922][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.27.47:073][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.27.47:121][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.27.48:360][931]LogEditorViewport: Clicking on Actor (LMB): Collectible_C (Collectible)
+[2017.05.24-12.27.57:375][590]LogSavePackage: Save=319.12ms
+[2017.05.24-12.27.57:375][590]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_224CA1B8647C5E2D8810B81AE33ADEDC3.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap'
+[2017.05.24-12.27.57:379][590]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap
+[2017.05.24-12.27.57:990][635]LogEditorViewport: Clicking on Actor (LMB): Collectible_C (Collectible)
+[2017.05.24-12.28.19:478][206]LogSavePackage: Save=243.43ms
+[2017.05.24-12.28.19:478][206]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_2ED8027F941129FA583D2CA883BDD605C.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap'
+[2017.05.24-12.28.19:483][206]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap
+[2017.05.24-12.28.20:106][252]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.28.20:116][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.28.20:116][252]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.24-12.28.20:117][252]LogPlayLevel: [PlayLevel] Compiling Collectible before play...
+[2017.05.24-12.28.20:232][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 115 ms (1 blueprints)
+[2017.05.24-12.28.20:232][252]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:28:20 PM)
+[2017.05.24-12.28.20:232][252]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.28.20:248][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016150s)
+[2017.05.24-12.28.20:249][252]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.28.20:249][252]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.05.24-12.28.20:249][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.017254s)
+[2017.05.24-12.28.20:277][252]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.28.20:281][252]LogInit: FAudioDevice initialized.
+[2017.05.24-12.28.20:313][252]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.28.20:316][252]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.28.20
+[2017.05.24-12.28.20:317][252]LogWorld: Bringing up level for play took: 0.002655
+[2017.05.24-12.28.20:318][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.28.20:318][252]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 0.738
+[2017.05.24-12.28.20:318][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.28.34:275][537]LogNet: Browse: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.28.34:275][537]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Level_3
+[2017.05.24-12.28.34:295][537]Cmd: MEM
+[2017.05.24-12.28.34:311][537]LogMemory: Platform Memory Stats for Windows
+[2017.05.24-12.28.34:311][537]LogMemory: Process Physical Memory: 3395.29 MB used, 3733.34 MB peak
+[2017.05.24-12.28.34:311][537]LogMemory: Process Virtual Memory: 4609.41 MB used, 4965.22 MB peak
+[2017.05.24-12.28.34:311][537]LogMemory: Physical Memory: 9797.79 MB used,  55640.04 MB free, 65437.84 MB total
+[2017.05.24-12.28.34:311][537]LogMemory: Virtual Memory: 5873.57 MB used,  55640.04 MB free, 134217728.00 MB total
+[2017.05.24-12.28.34:311][537]LogMemory: 
+[2017.05.24-12.28.34:311][537]Allocator Stats for TBB: (not implemented)
+[2017.05.24-12.28.34:455][537]LogAIModule: Creating AISystem for world Level_3
+[2017.05.24-12.28.34:455][537]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.28.34:471][537]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_3.Level_3 up for play (max tick rate 0) at 2017.05.24-14.28.34
+[2017.05.24-12.28.34:472][537]LogWorld: Bringing up level for play took: 0.015647
+[2017.05.24-12.28.34:473][537]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.28.34:473][537]LogLoad: Took 0.197215 seconds to LoadMap(/Game/SideScrollerBP/Maps/Level_3)
+[2017.05.24-12.28.48:914][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.28.48:958][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.01:717][737]LogSavePackage: Save=20.46ms
+[2017.05.24-12.29.01:717][737]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Collectible7997F56F4C95DBBE309C378F1330FB7D.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/Collectible.uasset'
+[2017.05.24-12.29.01:721][737]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Blueprints/Collectible.uasset
+[2017.05.24-12.29.12:010][524]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.12:010][524]LogTemp:Display: Added material ShaderMap 0x000001C19343EE80 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.12:017][524]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C19343EE80
+[2017.05.24-12.29.12:092][524]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.12:092][524]LogTemp:Display: Added material ShaderMap 0x000001C15D929600 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.12:096][524]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C15D929600
+[2017.05.24-12.29.12:096][524]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.12:121][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.12:121][524]LogTemp:Display: Added material ShaderMap 0x000001C122F58100 with Material 0x000001C134400100 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.12:123][524]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C122F58100
+[2017.05.24-12.29.12:842][554]LogTemp:Display: Finished compile of shader map 0x000001C122F58100
+[2017.05.24-12.29.12:842][554]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C122F58100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.12:842][554]LogTemp:Display: Marking material as finished 0x000001C134400100
+[2017.05.24-12.29.12:857][555]LogTemp:Display: Finished compile of shader map 0x000001C15D929600
+[2017.05.24-12.29.12:857][555]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C15D929600, marking material Transit_Material as finished
+[2017.05.24-12.29.12:857][555]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.12:871][556]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.12:871][556]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.12:871][556]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.17:781][954]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.17:782][954]LogTemp:Display: Added material ShaderMap 0x000001C14CAF6080 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.17:785][954]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C14CAF6080
+[2017.05.24-12.29.17:786][954]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.17:814][954]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.17:815][954]LogTemp:Display: Added material ShaderMap 0x000001C14CBB6400 with Material 0x000001C14CF4DC00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.17:818][954]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C14CBB6400
+[2017.05.24-12.29.18:045][965]LogTemp:Display: Finished compile of shader map 0x000001C14CBB6400
+[2017.05.24-12.29.18:045][965]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C14CBB6400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.18:045][965]LogTemp:Display: Marking material as finished 0x000001C14CF4DC00
+[2017.05.24-12.29.18:060][966]LogTemp:Display: Finished compile of shader map 0x000001C14CAF6080
+[2017.05.24-12.29.18:060][966]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C14CAF6080, marking material Transit_Material as finished
+[2017.05.24-12.29.18:060][966]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.18:073][967]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.18:073][967]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.18:073][967]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.19:190][ 58]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.19:190][ 58]LogTemp:Display: Added material ShaderMap 0x000001C14CAF4100 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.19:194][ 58]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C14CAF4100
+[2017.05.24-12.29.19:194][ 58]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.19:221][ 58]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.19:222][ 58]LogTemp:Display: Added material ShaderMap 0x000001C122F58100 with Material 0x000001C14CF4DC00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.19:224][ 58]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C122F58100
+[2017.05.24-12.29.19:453][ 70]LogTemp:Display: Finished compile of shader map 0x000001C14CAF4100
+[2017.05.24-12.29.19:453][ 70]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C14CAF4100, marking material Transit_Material as finished
+[2017.05.24-12.29.19:453][ 70]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.19:455][ 70]LogTemp:Display: Finished compile of shader map 0x000001C122F58100
+[2017.05.24-12.29.19:455][ 70]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C122F58100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.19:455][ 70]LogTemp:Display: Marking material as finished 0x000001C14CF4DC00
+[2017.05.24-12.29.19:467][ 71]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.19:467][ 71]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.19:467][ 71]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.20:571][160]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.20:571][160]LogTemp:Display: Added material ShaderMap 0x000001C14CAF5600 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.20:575][160]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C14CAF5600
+[2017.05.24-12.29.20:576][160]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.20:605][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.20:605][160]LogTemp:Display: Added material ShaderMap 0x000001C14CB76E80 with Material 0x000001C14CA7C400 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.20:608][160]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C14CB76E80
+[2017.05.24-12.29.20:842][172]LogTemp:Display: Finished compile of shader map 0x000001C14CAF5600
+[2017.05.24-12.29.20:842][172]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C14CAF5600, marking material Transit_Material as finished
+[2017.05.24-12.29.20:842][172]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.20:843][172]LogTemp:Display: Finished compile of shader map 0x000001C14CB76E80
+[2017.05.24-12.29.20:843][172]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C14CB76E80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.20:843][172]LogTemp:Display: Marking material as finished 0x000001C14CA7C400
+[2017.05.24-12.29.20:856][173]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.20:856][173]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.20:856][173]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.25:444][552]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.25:445][552]LogTemp:Display: Added material ShaderMap 0x000001C15DC25980 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.25:449][552]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C15DC25980
+[2017.05.24-12.29.25:449][552]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.25:477][552]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.25:478][552]LogTemp:Display: Added material ShaderMap 0x000001C1A8ED7580 with Material 0x000001C14CF7D000 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.25:481][552]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C1A8ED7580
+[2017.05.24-12.29.25:720][565]LogTemp:Display: Finished compile of shader map 0x000001C15DC25980
+[2017.05.24-12.29.25:720][565]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C15DC25980, marking material Transit_Material as finished
+[2017.05.24-12.29.25:720][565]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.25:722][565]LogTemp:Display: Finished compile of shader map 0x000001C1A8ED7580
+[2017.05.24-12.29.25:722][565]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C1A8ED7580, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.25:722][565]LogTemp:Display: Marking material as finished 0x000001C14CF7D000
+[2017.05.24-12.29.25:734][566]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.25:734][566]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.25:734][566]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.28:487][795]LogMaterialEditor: Saving and Compiling material Transit_Material
+[2017.05.24-12.29.29:115][795]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.29:116][795]LogTemp:Display: Added material ShaderMap 0x000001C14CAF4F00 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.29:122][795]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C14CAF4F00
+[2017.05.24-12.29.29:122][795]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.29:142][795]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.29:143][795]LogTemp:Display: Added material ShaderMap 0x000001C14CA63200 with Material 0x000001C0C7236C80 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.29:152][795]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C14CA63200
+[2017.05.24-12.29.29:157][795]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.29:158][795]LogTemp:Display: Added material ShaderMap 0x000001C15DC25980 with Material 0x000001C0C7236C80 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.29:163][795]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C15DC25980
+[2017.05.24-12.29.29:165][795]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.29:192][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Transit_Material, compiling. 
+[2017.05.24-12.29.29:193][795]LogTemp:Display: Added material ShaderMap 0x000001C15D928800 with Material 0x000001C1190DCD00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.29:388][795]LogTemp:Display: Finished compile of shader map 0x000001C15D928800
+[2017.05.24-12.29.29:388][795]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Transit_Material complete, GameThreadShaderMap 0x000001C15D928800, marking material FDebugViewModeMaterialProxy Transit_Material as finished
+[2017.05.24-12.29.29:388][795]LogTemp:Display: Marking material as finished 0x000001C1190DCD00
+[2017.05.24-12.29.29:390][795]TextureStreamingBuild:Display: Compiling optional shaders took 0.204 seconds.
+[2017.05.24-12.29.30:276][795]LogTemp:Display: Finished compile of shader map 0x000001C15DC25980
+[2017.05.24-12.29.30:276][795]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C15DC25980, marking material Transit_Material as finished
+[2017.05.24-12.29.30:276][795]LogTemp:Display: Marking material as finished 0x000001C0C7236C80
+[2017.05.24-12.29.30:277][795]LogTemp:Display: Finished compile of shader map 0x000001C14CA63200
+[2017.05.24-12.29.30:277][795]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C14CA63200, marking material Transit_Material as finished
+[2017.05.24-12.29.30:277][795]LogTemp:Display: Marking material as finished 0x000001C0C7236C80
+[2017.05.24-12.29.30:281][795]LogTemp:Display: Finished compile of shader map 0x000001C14CAF4F00
+[2017.05.24-12.29.30:281][795]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C14CAF4F00, marking material Transit_Material as finished
+[2017.05.24-12.29.30:281][795]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.30:316][795]LogSavePackage: Save=8.21ms
+[2017.05.24-12.29.30:316][795]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Transit_MaterialD1391AC94B7825E6EBC62B81AC2EDC56.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Meshes/Transit/Transit_Material.uasset'
+[2017.05.24-12.29.30:320][795]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Meshes/Transit/Transit_Material.uasset
+[2017.05.24-12.29.31:529][894]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.29.31:554][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.31:554][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.29.31:554][894]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:29:31 PM)
+[2017.05.24-12.29.31:554][894]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.29.31:571][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016480s)
+[2017.05.24-12.29.31:571][894]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.29.31:572][894]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2017.05.24-12.29.31:572][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.017473s)
+[2017.05.24-12.29.31:600][894]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.29.31:604][894]LogInit: FAudioDevice initialized.
+[2017.05.24-12.29.31:635][894]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.29.31:638][894]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.29.31
+[2017.05.24-12.29.31:639][894]LogWorld: Bringing up level for play took: 0.002737
+[2017.05.24-12.29.31:640][894]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.29.31:640][894]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 0.059
+[2017.05.24-12.29.31:640][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.41:930][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.41:978][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.48:991][529]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.48:992][529]LogTemp:Display: Added material ShaderMap 0x000001C109F4DD00 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.48:996][529]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C109F4DD00
+[2017.05.24-12.29.48:996][529]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.49:021][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.24-12.29.49:022][529]LogTemp:Display: Added material ShaderMap 0x000001C0F5196B00 with Material 0x000001C08E39CD00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.49:025][529]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001C0F5196B00
+[2017.05.24-12.29.49:258][541]LogTemp:Display: Finished compile of shader map 0x000001C0F5196B00
+[2017.05.24-12.29.49:258][541]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001C0F5196B00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.24-12.29.49:258][541]LogTemp:Display: Marking material as finished 0x000001C08E39CD00
+[2017.05.24-12.29.49:272][542]LogTemp:Display: Finished compile of shader map 0x000001C109F4DD00
+[2017.05.24-12.29.49:272][542]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C109F4DD00, marking material Transit_Material as finished
+[2017.05.24-12.29.49:272][542]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.49:285][543]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.24-12.29.49:286][543]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.24-12.29.49:286][543]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.24-12.29.52:002][746]LogSavePackage: Save=249.64ms
+[2017.05.24-12.29.52:002][746]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Level_2866F1FD54CB62C998E123B92FE294884.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap'
+[2017.05.24-12.29.52:007][746]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Maps/Level_2.umap
+[2017.05.24-12.29.54:315][938]LogMaterialEditor: Saving and Compiling material Transit_Material
+[2017.05.24-12.29.54:937][938]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.54:938][938]LogTemp:Display: Added material ShaderMap 0x000001C109F4EE80 with Material 0x000001C119374E00 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.54:944][938]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C109F4EE80
+[2017.05.24-12.29.54:944][938]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.54:960][938]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.54:961][938]LogTemp:Display: Added material ShaderMap 0x000001C0F48F8800 with Material 0x000001C0C7235900 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.54:968][938]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C0F48F8800
+[2017.05.24-12.29.54:970][938]LogMaterial: Missing cached shader map for material Transit_Material, compiling. 
+[2017.05.24-12.29.54:971][938]LogTemp:Display: Added material ShaderMap 0x000001C1A8F88480 with Material 0x000001C0C7235900 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.54:979][938]LogTemp:Display: Kicking off shader compilation for Transit_Material, GameThreadShaderMap 0x000001C1A8F88480
+[2017.05.24-12.29.54:981][938]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.24-12.29.55:007][938]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Transit_Material, compiling. 
+[2017.05.24-12.29.55:008][938]LogTemp:Display: Added material ShaderMap 0x000001C137D10100 with Material 0x000001C0F4024400 to ShaderMapsBeingCompiled
+[2017.05.24-12.29.55:235][938]LogTemp:Display: Finished compile of shader map 0x000001C137D10100
+[2017.05.24-12.29.55:235][938]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Transit_Material complete, GameThreadShaderMap 0x000001C137D10100, marking material FDebugViewModeMaterialProxy Transit_Material as finished
+[2017.05.24-12.29.55:235][938]LogTemp:Display: Marking material as finished 0x000001C0F4024400
+[2017.05.24-12.29.55:237][938]TextureStreamingBuild:Display: Compiling optional shaders took 0.234 seconds.
+[2017.05.24-12.29.56:116][938]LogTemp:Display: Finished compile of shader map 0x000001C1A8F88480
+[2017.05.24-12.29.56:116][938]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C1A8F88480, marking material Transit_Material as finished
+[2017.05.24-12.29.56:116][938]LogTemp:Display: Marking material as finished 0x000001C0C7235900
+[2017.05.24-12.29.56:118][938]LogTemp:Display: Finished compile of shader map 0x000001C0F48F8800
+[2017.05.24-12.29.56:118][938]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C0F48F8800, marking material Transit_Material as finished
+[2017.05.24-12.29.56:118][938]LogTemp:Display: Marking material as finished 0x000001C0C7235900
+[2017.05.24-12.29.56:121][938]LogTemp:Display: Finished compile of shader map 0x000001C109F4EE80
+[2017.05.24-12.29.56:122][938]LogTemp:Display: Shader map Transit_Material complete, GameThreadShaderMap 0x000001C109F4EE80, marking material Transit_Material as finished
+[2017.05.24-12.29.56:122][938]LogTemp:Display: Marking material as finished 0x000001C119374E00
+[2017.05.24-12.29.56:161][938]LogSavePackage: Save=10.26ms
+[2017.05.24-12.29.56:161][938]LogSavePackage: Moving '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Transit_Material9CC6842840109FDDF1432FBDE1B5D5AC.tmp' to '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Meshes/Transit/Transit_Material.uasset'
+[2017.05.24-12.29.56:165][938]LogSavePackage:Display: Finished SavePackage ../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/SideScrollerBP/Meshes/Transit/Transit_Material.uasset
+[2017.05.24-12.29.56:744][986]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.29.56:754][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.29.56:754][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.29.56:754][986]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:29:56 PM)
+[2017.05.24-12.29.56:755][986]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.29.56:770][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015755s)
+[2017.05.24-12.29.56:771][986]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.29.56:771][986]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.05.24-12.29.56:771][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.016635s)
+[2017.05.24-12.29.56:800][986]LogInit: XAudio2 using 'EV2416W-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.29.56:804][986]LogInit: FAudioDevice initialized.
+[2017.05.24-12.29.56:834][986]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.29.56:838][986]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.29.56
+[2017.05.24-12.29.56:838][986]LogWorld: Bringing up level for play took: 0.002727
+[2017.05.24-12.29.56:839][986]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.29.56:839][986]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 -0.741
+[2017.05.24-12.29.56:839][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.21:148][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.21:196][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.21:728][903]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.31.21:740][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.21:740][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.31.21:740][903]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:31:21 PM)
+[2017.05.24-12.31.21:741][903]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.31.21:757][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015926s)
+[2017.05.24-12.31.21:757][903]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.31.21:757][903]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.05.24-12.31.21:757][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.016905s)
+[2017.05.24-12.31.21:785][903]LogInit: XAudio2 using 'EV2416W-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.31.21:801][903]LogInit: FAudioDevice initialized.
+[2017.05.24-12.31.21:832][903]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.31.21:835][903]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.31.21
+[2017.05.24-12.31.21:835][903]LogWorld: Bringing up level for play took: 0.002789
+[2017.05.24-12.31.21:836][903]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.21:836][903]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.21:836][903]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.21:837][903]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 0.256
+[2017.05.24-12.31.21:837][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.43:011][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.43:062][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.45:609][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.24-12.31.45:672][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.24-12.31.45:731][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.24-12.31.47:110][942]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.24-12.31.47:120][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.47:120][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.24-12.31.47:120][942]PIE: New page: PIE session: Level_2 (May 24, 2017, 4:31:47 PM)
+[2017.05.24-12.31.47:120][942]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2
+[2017.05.24-12.31.47:137][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016087s)
+[2017.05.24-12.31.47:137][942]LogAIModule: Creating AISystem for world Level_2
+[2017.05.24-12.31.47:137][942]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2017.05.24-12.31.47:137][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level_2.Level_2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 (0.016955s)
+[2017.05.24-12.31.47:164][942]LogTemp:Display: Removed shader map 0x000001C19343EE80 from material 0x000001C119374E00
+[2017.05.24-12.31.47:175][942]LogInit: XAudio2 using 'EV2416W-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.24-12.31.47:188][942]LogInit: FAudioDevice initialized.
+[2017.05.24-12.31.47:219][942]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.05.24-12.31.47:222][942]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.05.24-14.31.47
+[2017.05.24-12.31.47:223][942]LogWorld: Bringing up level for play took: 0.002682
+[2017.05.24-12.31.47:224][942]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.47:224][942]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.47:224][942]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array TextureArray of length 3!
+[2017.05.24-12.31.47:224][942]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level_2 -0.357
+[2017.05.24-12.31.47:224][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.50:404][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.50:443][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/SideScrollerBP/Maps/Level_2.Level_2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2017.05.24-12.31.55:391][893]LogEditorViewport: Clicking on Actor (LMB): Pillar_C (Pillar06)
+[2017.05.24-12.32.24:816][728]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.24-12.32.25:026][729]Cmd: QUIT_EDITOR
+[2017.05.24-12.32.25:514][729]LogExit: Preparing to exit.
+[2017.05.24-12.32.26:195][729]LogDirectoryWatcher: A directory notification for 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/' was aborted.
+[2017.05.24-12.32.26:224][729]LogExit: Editor shut down
+[2017.05.24-12.32.26:224][729]LogExit: Transaction tracking system shut down
+[2017.05.24-12.32.26:336][729]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.24-12.32.26:336][729]LogExit: Object subsystem successfully closed.
+[2017.05.24-12.32.26:359][729]LogD3D11RHI: Shutdown
+[2017.05.24-12.32.26:359][729]LogD3D11RHI: CleanupD3DDevice
+[2017.05.24-12.32.26:459][729]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.24-12.32.26:483][729]LogModuleManager: Shutting down and abandoning module MaterialEditor (506)
+[2017.05.24-12.32.26:483][729]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.05.24-12.32.26:483][729]LogModuleManager: Shutting down and abandoning module StatsViewer (502)
+[2017.05.24-12.32.26:483][729]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.05.24-12.32.26:483][729]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.05.24-12.32.26:484][729]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.05.24-12.32.26:484][729]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.05.24-12.32.26:484][729]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.05.24-12.32.26:484][729]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.05.24-12.32.26:484][729]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.05.24-12.32.26:485][729]LogDirectoryWatcher: A directory notification for 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/Collections/' was aborted.
+[2017.05.24-12.32.26:485][729]LogDirectoryWatcher: A directory notification for 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/Developers/borisignjatovic/Collections/' was aborted.
+[2017.05.24-12.32.26:485][729]LogDirectoryWatcher: A directory notification for 'C:/LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Saved/Collections/' was aborted.
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.24-12.32.26:485][729]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.24-12.32.26:486][729]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.24-12.32.26:813][729]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.24-12.32.26:813][729]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.24-12.32.26:813][729]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.24-12.32.26:813][729]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.24-12.32.26:814][729]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.24-12.32.26:815][729]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.24-12.32.26:816][729]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.24-12.32.26:848][729]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.24-12.32.26:848][729]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.24-12.32.26:848][729]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.24-12.32.26:849][729]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.24-12.32.26:856][729]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.24-12.32.26:856][729]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.24-12.32.26:856][729]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.24-12.32.26:856][729]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.24-12.32.26:857][729]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.24-12.32.27:021][729]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.24-12.32.27:022][729]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.24-12.32.27:023][729]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.24-12.32.27:023][729]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.24-12.32.27:023][729]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.24-12.32.27:024][729]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.24-12.32.27:024][729]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.24-12.32.27:024][729]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.24-12.32.27:024][729]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.24-12.32.27:024][729]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.24-12.32.27:125][729]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.24-12.32.27:225][729]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.24-12.32.27:225][729]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.24-12.32.27:225][729]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.24-12.32.27:225][729]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.24-12.32.27:225][729]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.24-12.32.27:226][729]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.24-12.32.27:227][729]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.24-12.32.27:230][729]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.24-12.32.27:345][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.24-12.32.27:345][729]LogDirectoryWatcher: A directory notification for '../../../../../../LocalWork/UnrealTests/Robotizer808Repo/Robotizer808/Content/' was aborted.
+[2017.05.24-12.32.27:345][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.24-12.32.27:346][729]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.24-12.32.27:347][729]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.24-12.32.27:422][729]LogDerivedDataCache: Shutdown
+[2017.05.24-12.32.27:422][729]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.24-12.32.27:422][729]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.24-12.32.27:422][729]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.24-12.32.27:422][729]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.24-12.32.27:422][729]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.24-12.32.27:423][729]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.24-12.32.27:423][729]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.24-12.32.27:424][729]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.24-12.32.27:424][729]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.24-12.32.27:424][729]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B467E7CDF-478B-5FBA-AE52-7F88E1F8F5A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=d0f72eec4cbe3402dde69c9f4c378211%7Cd8c01e605c644d598bce0b1bf4d706be%7Cce62e621-3e28-4fc5-b34c-513586aff0e1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.24-12.32.27:435][729]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.24-12.32.27:437][729]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.24-12.32.27:437][729]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.24-12.32.27:437][729]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.24-12.32.27:437][729]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.24-12.32.27:437][729]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.24-12.32.27:440][729]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.24-12.32.27:442][729]LogExit: Exiting.
+[2017.05.24-12.32.27:444][729]Log file closed, 05/24/17 14:32:27
